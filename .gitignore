@@ -1,0 +1,7 @@
+# Godot
+.godot/
+Release/
+
+# .NET
+bin/
+obj/
