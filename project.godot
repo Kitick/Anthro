@@ -15,6 +15,11 @@ run/main_scene="uid://c75bhvauvqawv"
 config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 config/icon="res://Assets/icon.svg"
 
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+
 [dotnet]
 
 project/assembly_name="Anthro"
