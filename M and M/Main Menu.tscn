@@ -19,3 +19,18 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_ktokb")
 expand_mode = 2
+
+[node name="BoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 241.0
+offset_right = 196.0
+offset_bottom = 358.0
+
+[node name="Button" type="Button" parent="BoxContainer"]
+layout_mode = 2
+text = "Push Me"
+
+[node name="Button2" type="Button" parent="BoxContainer"]
+layout_mode = 2
+text = "Push Me 2"
