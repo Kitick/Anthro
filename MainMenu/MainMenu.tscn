@@ -1,7 +1,27 @@
-[gd_scene load_steps=3 format=3 uid="uid://c75bhvauvqawv"]
+[gd_scene load_steps=13 format=3 uid="uid://c75bhvauvqawv"]
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
 [ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/placeholder.png" id="1_otibh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cruaa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b76km"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lbqne"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_430ii"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3p42x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3clmd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bsanu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kftou"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nre7b"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nxm3p"]
 
 [node name="MainMenu" type="Control" node_paths=PackedStringArray("NewGame", "LoadGame", "Options", "Settings", "Exit")]
 layout_mode = 3
@@ -29,41 +49,72 @@ expand_mode = 2
 
 [node name="Title" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 141.0
-offset_top = 28.0
-offset_right = 712.0
-offset_bottom = 192.0
-theme_override_font_sizes/normal_font_size = 45
+offset_left = 42.0
+offset_top = 31.0
+offset_right = 613.0
+offset_bottom = 195.0
+theme_override_font_sizes/normal_font_size = 71
 text = "The Title Here"
 
 [node name="MenuButtons" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 52.0
-offset_top = 140.0
-offset_right = 371.0
-offset_bottom = 621.0
+offset_left = 38.0
+offset_top = 185.0
+offset_right = 357.0
+offset_bottom = 666.0
+theme_override_constants/separation = 40
 
 [node name="NewGame" type="Button" parent="MenuButtons"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_b76km")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_lbqne")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_430ii")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "New game"
+alignment = 0
 
 [node name="LoadGame" type="Button" parent="MenuButtons"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_3clmd")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_bsanu")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_kftou")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_nre7b")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_nxm3p")
 text = "Load game"
+alignment = 0
 
 [node name="Options" type="Button" parent="MenuButtons"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_b76km")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_lbqne")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_430ii")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "Options"
+alignment = 0
 
 [node name="Settings" type="Button" parent="MenuButtons"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_b76km")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_lbqne")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_430ii")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "Settings"
+alignment = 0
 
 [node name="Quit" type="Button" parent="MenuButtons"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_b76km")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_lbqne")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_430ii")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "Quit"
+alignment = 0
