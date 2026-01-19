@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c75bhvauvqawv"]
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
-[ext_resource type="Texture2D" uid="uid://bii57e8ojykfw" path="res://MainMenu/placeholder.png" id="1_otibh"]
+[ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/placeholder.png" id="1_otibh"]
 
 [node name="MainMenu" type="Control" node_paths=PackedStringArray("StartButton", "ExitButton")]
 layout_mode = 3
@@ -24,17 +24,38 @@ grow_vertical = 2
 texture = ExtResource("1_otibh")
 expand_mode = 2
 
+[node name="Title" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 141.0
+offset_top = 28.0
+offset_right = 712.0
+offset_bottom = 192.0
+theme_override_font_sizes/normal_font_size = 45
+text = "The Title Here"
+
 [node name="BoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
 offset_left = 53.0
 offset_top = 241.0
-offset_right = 196.0
-offset_bottom = 358.0
+offset_right = 372.0
+offset_bottom = 722.0
 
 [node name="Button" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "Push Me"
+text = "New game"
 
 [node name="Button2" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "Push Me 2"
+text = "Load game"
+
+[node name="Button3" type="Button" parent="BoxContainer"]
+layout_mode = 2
+text = "Options"
+
+[node name="Button4" type="Button" parent="BoxContainer"]
+layout_mode = 2
+text = "Settings"
+
+[node name="Button5" type="Button" parent="BoxContainer"]
+layout_mode = 2
+text = "Quit"
