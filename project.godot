@@ -23,3 +23,7 @@ window/size/viewport_height=900
 [dotnet]
 
 project/assembly_name="Anthro"
+
+[gui]
+
+theme/custom_font="uid://bw7g468b1x335"
