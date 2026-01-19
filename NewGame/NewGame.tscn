@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhsex3ichr4jv"]
+
+[ext_resource type="Script" uid="uid://hvha6qdta7e3" path="res://NewGame/NewGame.cs" id="1_wyeom"]
+
+[node name="NewGame" type="Control" node_paths=PackedStringArray("StartButton", "ExitButton", "FileName")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_wyeom")
+StartButton = NodePath("NavButtons/Start")
+ExitButton = NodePath("NavButtons/Cancel")
+FileName = NodePath("SaveSettings/FileInput")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1600.0
+offset_bottom = 900.0
+color = Color(0.1428582, 0.14285824, 0.1428582, 1)
+
+[node name="Title" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 49.0
+offset_right = 333.0
+offset_bottom = 102.0
+bbcode_enabled = true
+text = "Starting New Game ..."
+
+[node name="SaveSettings" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 52.0
+offset_top = 594.0
+offset_right = 1052.0
+offset_bottom = 794.0
+
+[node name="FileLabel" type="Label" parent="SaveSettings"]
+layout_mode = 0
+offset_top = 100.0
+offset_right = 100.0
+offset_bottom = 130.0
+text = "File name:"
+vertical_alignment = 1
+
+[node name="FileInput" type="LineEdit" parent="SaveSettings"]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 600.0
+offset_bottom = 131.0
+
+[node name="NavButtons" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1304.2767
+offset_top = 637.2529
+offset_right = 1557.0
+offset_bottom = 843.0
+alignment = 2
+
+[node name="Start" type="Button" parent="NavButtons"]
+layout_mode = 2
+text = "Start Game"
+
+[node name="Cancel" type="Button" parent="NavButtons"]
+layout_mode = 2
+text = "Cancel
+"
