@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
 [ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/placeholder.png" id="1_otibh"]
 
-[node name="MainMenu" type="Control" node_paths=PackedStringArray("StartButton", "ExitButton")]
+[node name="MainMenu" type="Control" node_paths=PackedStringArray("NewGame", "LoadGame", "Options", "Settings", "Exit")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,10 +11,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_cruaa")
-StartButton = NodePath("BoxContainer/Button")
-ExitButton = NodePath("BoxContainer/Button2")
+NewGame = NodePath("MenuButtons/NewGame")
+LoadGame = NodePath("MenuButtons/LoadGame")
+Options = NodePath("MenuButtons/Options")
+Settings = NodePath("MenuButtons/Settings")
+Exit = NodePath("MenuButtons/Quit")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -33,29 +36,34 @@ offset_bottom = 192.0
 theme_override_font_sizes/normal_font_size = 45
 text = "The Title Here"
 
-[node name="BoxContainer" type="VBoxContainer" parent="."]
+[node name="MenuButtons" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 53.0
-offset_top = 241.0
-offset_right = 372.0
-offset_bottom = 722.0
+offset_left = 52.0
+offset_top = 140.0
+offset_right = 371.0
+offset_bottom = 621.0
 
-[node name="Button" type="Button" parent="BoxContainer"]
+[node name="NewGame" type="Button" parent="MenuButtons"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "New game"
 
-[node name="Button2" type="Button" parent="BoxContainer"]
+[node name="LoadGame" type="Button" parent="MenuButtons"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Load game"
 
-[node name="Button3" type="Button" parent="BoxContainer"]
+[node name="Options" type="Button" parent="MenuButtons"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Options"
 
-[node name="Button4" type="Button" parent="BoxContainer"]
+[node name="Settings" type="Button" parent="MenuButtons"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Settings"
 
-[node name="Button5" type="Button" parent="BoxContainer"]
+[node name="Quit" type="Button" parent="MenuButtons"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Quit"
