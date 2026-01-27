@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
 [ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/Placeholder.png" id="1_otibh"]
+[ext_resource type="PackedScene" uid="uid://bhsex3ichr4jv" path="res://NewGame/NewGame.tscn" id="2_b76km"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cruaa"]
 
@@ -31,6 +32,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_cruaa")
+NewGameScene = ExtResource("2_b76km")
 NewGame = NodePath("MenuButtons/NewGame")
 LoadGame = NodePath("MenuButtons/LoadGame")
 Options = NodePath("MenuButtons/Options")
