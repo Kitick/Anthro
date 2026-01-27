@@ -1,12 +1,8 @@
 namespace UI.MainMenu {
 	using Godot;
+	using Root;
 
 	public partial class MainMenu : Control {
-		[ExportCategory("Scenes")]
-		[Export] private PackedScene NewGameScene = null!;
-		[Export] private PackedScene LoadGameScene = null!;
-		[Export] private PackedScene SettingsScene = null!;
-
 		[ExportCategory("Buttons")]
 		[Export] private Button NewGame = null!;
 		[Export] private Button LoadGame = null!;
@@ -15,10 +11,10 @@ namespace UI.MainMenu {
 		[Export] private Button Exit = null!;
 
 		public override void _Ready() {
-			NewGame.Pressed += () => GetTree().ChangeSceneToPacked(NewGameScene);
-			LoadGame.Pressed += () => GetTree().ChangeSceneToPacked(LoadGameScene);
-			Options.Pressed += () => GetTree().ChangeSceneToPacked(SettingsScene);
-			Settings.Pressed += () => GetTree().ChangeSceneToPacked(SettingsScene);
+			NewGame.Pressed += Root.Instance.ChangeToNewGame;
+			LoadGame.Pressed += () => GD.Print("Load Game pressed");
+			Options.Pressed += () => GD.Print("Options pressed");
+			Settings.Pressed += () => GD.Print("Settings pressed");
 			Exit.Pressed += () => GetTree().Quit();
 		}
 	}
