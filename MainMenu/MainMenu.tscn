@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://c75bhvauvqawv"]
+[gd_scene format=3 uid="uid://c75bhvauvqawv"]
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
-[ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/placeholder.png" id="1_otibh"]
+[ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/Placeholder.png" id="1_otibh"]
 
-[node name="MainMenu" type="Control" node_paths=PackedStringArray("StartButton", "ExitButton")]
+[node name="MainMenu" type="Control" unique_id=2003646963 node_paths=PackedStringArray("StartButton", "ExitButton")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -14,7 +14,7 @@ script = ExtResource("1_cruaa")
 StartButton = NodePath("BoxContainer/Button")
 ExitButton = NodePath("BoxContainer/Button2")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=476111062]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,7 +24,7 @@ grow_vertical = 2
 texture = ExtResource("1_otibh")
 expand_mode = 2
 
-[node name="Title" type="RichTextLabel" parent="."]
+[node name="Title" type="RichTextLabel" parent="." unique_id=949242494]
 layout_mode = 0
 offset_left = 141.0
 offset_top = 28.0
@@ -33,29 +33,29 @@ offset_bottom = 192.0
 theme_override_font_sizes/normal_font_size = 45
 text = "The Title Here"
 
-[node name="BoxContainer" type="VBoxContainer" parent="."]
+[node name="BoxContainer" type="VBoxContainer" parent="." unique_id=1250518138]
 layout_mode = 0
 offset_left = 53.0
 offset_top = 241.0
 offset_right = 372.0
 offset_bottom = 722.0
 
-[node name="Button" type="Button" parent="BoxContainer"]
+[node name="Button" type="Button" parent="BoxContainer" unique_id=1961470217]
 layout_mode = 2
 text = "New game"
 
-[node name="Button2" type="Button" parent="BoxContainer"]
+[node name="Button2" type="Button" parent="BoxContainer" unique_id=301193001]
 layout_mode = 2
 text = "Load game"
 
-[node name="Button3" type="Button" parent="BoxContainer"]
+[node name="Button3" type="Button" parent="BoxContainer" unique_id=965117379]
 layout_mode = 2
 text = "Options"
 
-[node name="Button4" type="Button" parent="BoxContainer"]
+[node name="Button4" type="Button" parent="BoxContainer" unique_id=1664458612]
 layout_mode = 2
 text = "Settings"
 
-[node name="Button5" type="Button" parent="BoxContainer"]
+[node name="Button5" type="Button" parent="BoxContainer" unique_id=1745897648]
 layout_mode = 2
 text = "Quit"
