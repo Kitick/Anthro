@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Anthro"
 run/main_scene="uid://c75bhvauvqawv"
-config/features=PackedStringArray("4.5", "C#", "Forward Plus")
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://Assets/icon.svg"
 
 [display]

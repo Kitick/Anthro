@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://c75bhvauvqawv"]
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
-[ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/placeholder.png" id="1_otibh"]
+[ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/Placeholder.png" id="1_otibh"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cruaa"]
 
@@ -47,7 +47,7 @@ grow_vertical = 2
 texture = ExtResource("1_otibh")
 expand_mode = 2
 
-[node name="Title" type="RichTextLabel" parent="."]
+[node name="Title" type="RichTextLabel" parent="." unique_id=949242494]
 layout_mode = 0
 offset_left = 42.0
 offset_top = 31.0
