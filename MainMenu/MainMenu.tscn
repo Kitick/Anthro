@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://c75bhvauvqawv"]
+[gd_scene format=3 uid="uid://c75bhvauvqawv"]
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
 [ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/Placeholder.png" id="1_otibh"]
@@ -23,7 +23,7 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nxm3p"]
 
-[node name="MainMenu" type="Control" node_paths=PackedStringArray("NewGame", "LoadGame", "Options", "Settings", "Exit")]
+[node name="MainMenu" type="Control" unique_id=767249352 node_paths=PackedStringArray("NewGame", "LoadGame", "Options", "Settings", "Exit")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -37,7 +37,7 @@ Options = NodePath("MenuButtons/Options")
 Settings = NodePath("MenuButtons/Settings")
 Exit = NodePath("MenuButtons/Quit")
 
-[node name="Background" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="." unique_id=95885328]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -56,7 +56,7 @@ offset_bottom = 195.0
 theme_override_font_sizes/normal_font_size = 71
 text = "The Title Here"
 
-[node name="MenuButtons" type="VBoxContainer" parent="."]
+[node name="MenuButtons" type="VBoxContainer" parent="." unique_id=579218376]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 185.0
@@ -64,7 +64,7 @@ offset_right = 357.0
 offset_bottom = 666.0
 theme_override_constants/separation = 40
 
-[node name="NewGame" type="Button" parent="MenuButtons"]
+[node name="NewGame" type="Button" parent="MenuButtons" unique_id=304891790]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
@@ -75,7 +75,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "New game"
 alignment = 0
 
-[node name="LoadGame" type="Button" parent="MenuButtons"]
+[node name="LoadGame" type="Button" parent="MenuButtons" unique_id=170485061]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxEmpty_3clmd")
@@ -86,7 +86,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_nxm3p")
 text = "Load game"
 alignment = 0
 
-[node name="Options" type="Button" parent="MenuButtons"]
+[node name="Options" type="Button" parent="MenuButtons" unique_id=240993919]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
@@ -97,7 +97,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "Options"
 alignment = 0
 
-[node name="Settings" type="Button" parent="MenuButtons"]
+[node name="Settings" type="Button" parent="MenuButtons" unique_id=654404051]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
@@ -108,7 +108,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_3p42x")
 text = "Settings"
 alignment = 0
 
-[node name="Quit" type="Button" parent="MenuButtons"]
+[node name="Quit" type="Button" parent="MenuButtons" unique_id=567132242]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxEmpty_cruaa")
