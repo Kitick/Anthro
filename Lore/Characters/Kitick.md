@@ -2,9 +2,9 @@
 
 **Species:** Fox\
 **Variant:** Silver\
-**Age:** 28\
+**Age:** 24\
 **Height:** 170 cm\
-**Weight:** 75 kg\
+**Weight:** 71 kg\
 **Rank:** Sergeant\
 **Specialist:** Pilot, Computer Systems
 
