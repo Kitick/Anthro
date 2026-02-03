@@ -1,11 +1,11 @@
 # Elias "Ghost" Black
 
-**Species:** Wolf
-**Variant:** Timber
-**Age:** 34
-**Height:** 185 cm
-**Weight:** 90 kg
-**Rank:** Ex Captain
+**Species:** Wolf\
+**Variant:** Timber\
+**Age:** 34\
+**Height:** 185 cm\
+**Weight:** 90 kg\
+**Rank:** Ex Captain\
 **Specialist:** Spec-ops
 
 ## Description

@@ -1,11 +1,11 @@
 # Rathick "Rath" Chee
 
-**Species:** Cheetah
-**Variant:** None
-**Age:** 28
-**Height:** 180 cm
-**Weight:** 85 kg
-**Rank:** Sergeant
+**Species:** Cheetah\
+**Variant:** None\
+**Age:** 28\
+**Height:** 180 cm\
+**Weight:** 85 kg\
+**Rank:** Sergeant\
 **Specialist:** None
 
 ## Description

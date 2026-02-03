@@ -1,11 +1,11 @@
 # Terran Addari
 
-**Species:** Cheetah
-**Variant:** King
-**Age:** 30
-**Height:** 180 cm
-**Weight:** 85 kg
-**Rank:** Lieutenant
+**Species:** Cheetah\
+**Variant:** King\
+**Age:** 30\
+**Height:** 180 cm\
+**Weight:** 85 kg\
+**Rank:** Lieutenant\
 **Specialist:** Spec-ops
 
 ## Description

@@ -1,11 +1,11 @@
 # Kitick "Kit" Fox
 
-**Species:** Fox
-**Variant:** Silver
-**Age:** 28
-**Height:** 170 cm
-**Weight:** 75 kg
-**Rank:** Sergeant
+**Species:** Fox\
+**Variant:** Silver\
+**Age:** 28\
+**Height:** 170 cm\
+**Weight:** 75 kg\
+**Rank:** Sergeant\
 **Specialist:** Pilot, Computer Systems
 
 ## Description
