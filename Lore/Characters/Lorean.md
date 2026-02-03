@@ -1,13 +1,12 @@
 # Lorean
 
-**Species:** Ferret\
-**Variant:** Domestic cinnamon\
+**Species:** Cinnamon Ferret\
 **Age:** 25\
 **Height:** 145 cm\
 **Weight:** 50 kg
 
+## Overview
 
-## Description
 Ferret.
 
 ## Notes
