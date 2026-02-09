@@ -1,20 +1,10 @@
 <#
 .SYNOPSIS
 Concatenate all Markdown files under the `Lore` folder into a single Markdown file.
-
-.PARAMETER OutFile
-Path to the output file (default: Lore/FullLore.md).
-
-# Note: the script recurses subfolders by default; there is no -Recursive parameter.
-
-
-.EXAMPLE
-# From repo root
-powershell -ExecutionPolicy Bypass -File .\Lore\Export.ps1 -OutFile Lore\FullLore.md
 #>
 
 Param(
-    [string]$OutFile = "Lore/FullLore.md"
+    [string]$OutFile = "FullLore.md"
 )
 
 function Get-LoreFiles {
@@ -50,7 +40,7 @@ function Exclude-OutputFile {
 
 function Get-SearchRoot {
     param(
-        [string]$Subdir = "Lore"
+        [string]$Subdir
     )
     return Join-Path (Get-Location) $Subdir
 }
@@ -92,7 +82,7 @@ function Main {
         [string]$OutFile = $script:OutFile
     )
 
-    $searchRoot = Get-SearchRoot -Subdir "Lore"
+    $searchRoot = Get-SearchRoot -Subdir ""
     $files = Get-LoreFiles -Root $searchRoot
     $files = Exclude-OutputFile -Files $files -OutFile $OutFile
 
