@@ -21,9 +21,7 @@ As a result, the soul system in mainstream society persists only as myth, supers
 
 ## Environmental Suppression of Practice
 
-High population density significantly reduces local life field concentration. Urban centers, by their nature, act as sinks for field energy due to the number of souls present. This makes sensing, gathering, or manipulating the field extremely difficult in cities, even for trained individuals. Crystals charge slowly, abilities weaken, and rituals become unreliable.
-
-This environmental suppression is a major reason the soul system never scaled into mainstream use, even in periods when knowledge of it was more widespread. The system is physically incompatible with industrial civilization.
+High population density significantly reduces local life field concentration. Urban centers act as sinks for field energy, making sensing, gathering, or manipulating the field extremely difficult even for trained individuals. This is a major reason the soul system never scaled into mainstream use, even in periods when knowledge of it was more widespread. The system is physically incompatible with industrial civilization.
 
 ## Tribal Societies: Practical Knowledge and Fragmented Theory
 
@@ -33,24 +31,12 @@ Tribes share a general understanding of the field but differ in interpretation. 
 
 Tribal societies selectively adopt modern technologies but avoid systems that interfere with field interaction, such as high-density urbanization or mass infrastructure.
 
-## Crystals and Energy Use
-
-Tribes discovered that certain crystalline structures naturally accumulate life field energy and act as storage buffers. These crystals are used as batteries, stabilizers, and focusing tools. They do not generate energy and cannot convert it; conversion is performed by trained individuals.
-
-Crystals charge slowly over time by attracting energy from the environment. In field-rich areas, this process is effective; in dense settlements, it is not. Fully charged crystals gradually leak energy, producing heat and light as a byproduct.
-
-Because crystals alter natural energy flow, their use is controversial. Some tribes view them as necessary tools, others as dangerous distortions, and some forbid them entirely. Religious interpretations vary widely, often reflecting correct observations but incorrect causal explanations.
-
 ## Ritual Practices and Soul Interaction
 
 Some tribal traditions include rituals that temporarily weaken the soul–brain barrier, allowing controlled contact with disembodied souls. These rituals are used for communication, guidance, or resolution and are carefully structured to prevent permanent binding.
 
-Improper use or repeated practice can weaken the barrier permanently, allowing persistent souls to remain attached. Some known demonic entities originated from failed rituals that gave existing souls access to new hosts and energy sources.
+Improper use or repeated practice can weaken the barrier permanently, allowing persistent souls to remain attached.
 
 ## Demons: Myth and Reality
 
-In mainstream society, demons are considered folklore. In tribal regions, they are rare but known phenomena. Demons are souls that have accumulated enough energy across multiple hosts to develop stable identity independent of biology. Most fail before reaching this threshold. Those that do are recognizable through consistent behavior patterns across different hosts and are often tracked by specialized individuals or groups.
-
-Only a small number of demons reach a level of stability sufficient to be named, and at any given time only a dozen or so are believed to exist. These entities are not inherently hostile; their behavior reflects survival strategies rather than intent.
-
-Demons are more likely to survive in tribal regions, where energy is available and casters exist. In cities, they typically collapse before becoming detectable, reinforcing their status as myth.
+In mainstream society, demons are considered folklore. In tribal regions, they are rare but known phenomena, tracked by specialized individuals or groups. Only a dozen or so are believed to exist at any given time. In cities, developing demonic entities typically collapse before becoming stable enough to detect, which reinforces their mythological status.
