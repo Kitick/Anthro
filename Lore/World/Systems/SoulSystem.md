@@ -2,17 +2,19 @@
 
 ---
 
-## 1. The Life Field
+## 1. The Field
 
-### What the Life Field Is
+### The Physical and Spectral Polarities
 
-All space contains a diffuse physical energy field called the life field. It is not life, consciousness, or identity, but the substrate that makes all of those things possible. On its own it does nothing. It is simply present everywhere, at varying concentrations, waiting for the conditions that allow it to organize into something more.
+All space contains a single field. It is the same field that governs charge, heat, molecular bonds, and all physical interaction — and it is also the substrate that makes soul cores, fragments, identity, and consciousness possible. It does not become a different thing depending on how it expresses. It is one field with two polar orientations: a physical polarity and a spectral polarity. The field's spectral expression is not a separate phenomenon layered on top of physical reality. It is physical reality, oriented differently.
 
-### Field Density and Environmental Variation
+The soul system runs entirely on the field in its spectral expression. Soul cores, field shells, and fragments are all structures of the field's spectral polarity. A practitioner engaging with any of these is working with the same underlying field that an [elemental caster](MagicSystem.md) redirects — just the other orientation of it.
 
-Life field concentration varies by location, history, and circumstance. In open wilderness and areas with little sustained habitation, the field exists at natural ambient levels. In areas with a long history of emotional significance, ritual practice, or violent death, density may be locally elevated by residual fragment accumulation over time.
+### Variation in the Field's Polar Balance
 
-In dense urban centers, the opposite occurs. Large numbers of active souls continuously draw from the surrounding field to maintain their own cores and shells, creating a net drain that suppresses local concentration well below natural levels. This makes sensing the field harder and renders sustained manipulation unreliable. The life field behaves consistently everywhere. It is human civilization that created environments incompatible with its use.
+The balance between the field's physical and spectral expression varies by location. In open wilderness and areas with little sustained habitation, the field sits close to its natural equilibrium, with both polarities present in roughly comparable fractions. In areas with a long history of emotional significance, ritual practice, or violent death, the spectral expression may be locally elevated by residual fragment accumulation over time.
+
+In dense urban centers, the balance is pushed heavily toward physical expression. Large numbers of active souls maintaining their own cores continuously draw on the field's spectral polarity, and the sustained electromagnetic output of infrastructure and technology drives the balance further in the same direction. The result is an environment where the field's spectral expression makes up only a small fraction of what is present — enough that sensing or manipulating it becomes unreliable. The field itself is always there. It is the ratio of expression that cities have driven out of balance.
 
 ---
 
@@ -20,11 +22,15 @@ In dense urban centers, the opposite occurs. Large numbers of active souls conti
 
 ### Formation During Gestation
 
-A soul core does not exist before birth. It forms during gestation as a developing nervous system generates resonance patterns within the surrounding life field. The mother's body acts as a shield and gradient, allowing ambient field energy to accumulate around the developing brain rather than dispersing outward.
+A soul core does not exist before birth. It forms during gestation through the interaction between the developing nervous system's electrical activity and the field's spectral polarity in the local environment.
 
-If conditions are stable and accumulation is sufficient, this concentrated energy may nucleate into a singular, self-sustaining physical structure: the soul core. Nucleation can only occur during early development, when the brain's neural topology is still fluid. Once that window closes, a soul core either formed or it did not.
+A nervous system is fundamentally an electrical system. Its activity is an expression of the physical polarity of the field — electrochemical signals generating electromagnetic output at the cellular level. Under normal circumstances, this biases the local field toward physical expression, as any sustained EM source does. During the early developmental window, however, the neural topology is still forming and the resulting EM pattern is unusually structured: complex, spatially organized, and non-repeating in a way that a mature or simpler nervous system does not produce. That specific pattern does not simply drive the local balance toward physical. Instead, it creates a structured asymmetry in the field — a configuration where the field's spectral expression organizes around the EM pattern rather than being reduced by it. If the spectral polarity is sufficiently available in the local environment and the EM pattern reaches the necessary complexity before the developmental window closes, the organized spectral expression reaches a critical density and nucleates into a singular, self-sustaining structure: the soul core.
 
-After nucleation, the core generates a stabilizing field outward called the field shell. The shell is not a container but a boundary of influence within which identity fragments are attracted and held.
+The mother's body plays a critical role in this. Her own field shell and the surrounding biological tissue attenuate external EM noise — interference from other nervous systems and environmental sources — keeping the local field balance closer to equilibrium during the critical window. This preserves enough of the field's spectral expression for nucleation to occur. In environments where the field is heavily biased toward physical expression, this shielding is less effective, and successful nucleation becomes more precarious.
+
+Once the developmental window closes and neural topology stabilizes into a mature pattern, the brain's EM output loses the specific organized complexity that enables spectral organization. It becomes ambient physical-polarity noise. Nucleation is no longer possible.
+
+After nucleation, the core generates a stabilizing expression of the field outward, called the field shell. The shell is not a container but a boundary of influence within which identity fragments are attracted and held.
 
 ### The Core as the Seat of Experience
 
@@ -32,7 +38,7 @@ The soul core is the seat of first-person experience: the thing behind the eyes,
 
 ### Uniqueness and Non-Transferability
 
-Every soul core nucleates fresh from ambient field energy, shaped by the resonance patterns of that particular developing brain. No two are alike in structure. The core cannot be duplicated, and if it is destroyed, the self it anchored ends permanently. What was that person cannot be reconstructed, only approximated by something new.
+Every soul core nucleates from the field's spectral expression as organized by that particular developing brain's EM pattern. Because no two developing brains produce the same pattern, no two cores organize from the same template. No two are alike in structure. The core cannot be duplicated, and if it is destroyed, the self it anchored ends permanently. What was that person cannot be reconstructed, only approximated by something new.
 
 ---
 
@@ -54,7 +60,7 @@ In a living person, the combined influence of their fragments gives personality 
 
 ### Fragments at Large Scale
 
-Fragment accumulation does not plateau at a single lifetime. A soul that survives multiple hosts and continues accumulating can cross thresholds that change what the soul fundamentally is, eventually reaching a state where identity becomes self-contained and persists recognizably across any host. At the extreme end of this accumulation, the relationship between the soul's fragment mass and the host brain changes in ways that go well beyond personality bias. These mechanics and their consequences are covered in [Demons](Demons.md).
+Fragment accumulation does not plateau at a single lifetime. A soul that survives multiple hosts and continues accumulating can cross thresholds that change what the soul fundamentally is, eventually reaching a state where identity becomes self-contained and persists recognizably across any host. At the extreme end of this accumulation, the relationship between the soul's fragment mass and the host brain changes in ways that go well beyond personality bias, producing entities known as [demons](Demons.md).
 
 ---
 
@@ -78,7 +84,7 @@ Specific memories, factual knowledge, and learned skills are encoded in the brai
 
 ### The Soul as a Metastable Structure
 
-A soul core is not permanent. It is metastable, sustained by continuous energy input from the surrounding life field, actively resisting the tendency of organized energy to disperse. This requires a constant draw from the ambient field. Most energy is used efficiently, but some is always lost through natural leakage that the soul cannot prevent, only slow.
+A soul core is not permanent. It is metastable, sustained by continuous draw on the field's spectral expression in the surrounding environment, actively resisting the tendency of organized energy to disperse. This requires a constant draw from the ambient field. Most energy is used efficiently, but some is always lost through natural leakage that the soul cannot prevent, only slow.
 
 ### Aging and Decline as Structural Degradation
 
@@ -98,11 +104,11 @@ A persisting core may bind to another individual whose field shell has been weak
 
 ### Detached Fragments and Independent Persistence
 
-Fragments that detach from a living soul retain their emotional bias and may persist independently for a time, drifting in the local field environment. They cannot think, act, or generate experience. They are impressions without a mind behind them, and will gradually dissipate unless drawn into a new structure. A living soul with a weakened field shell may inadvertently attract nearby detached fragments, subtly shifting their emotional character over time. In areas of high field density they may linger for years.
+Fragments that detach from a living soul retain their emotional bias and may persist independently for a time, drifting where the field's spectral expression is present. They cannot think, act, or generate experience. They are impressions without a mind behind them, and will gradually dissipate unless drawn into a new structure. A living soul with a weakened field shell may inadvertently attract nearby detached fragments, subtly shifting their emotional character over time. In areas where the field's spectral expression is strong, they may linger for years.
 
 ### Fragments in Places
 
-Locations associated with prolonged intense emotion, repeated trauma, or violent death accumulate detached fragments over time. These fragments do not haunt in any active sense. They do not watch or communicate. But they carry emotional bias that individuals sensitive to the life field can perceive as unease, familiarity, or dread emanating from the space itself. No surviving spirit is required. Only the residue of lives lived and ended, slowly fading.
+Locations associated with prolonged intense emotion, repeated trauma, or violent death accumulate detached fragments over time. These fragments do not haunt in any active sense. They do not watch or communicate. But they carry emotional bias that individuals sensitive to the field's spectral expression can perceive as unease, familiarity, or dread emanating from the space itself. No surviving spirit is required. Only the residue of lives lived and ended, slowly fading.
 
 ### Volitional Dissolution
 

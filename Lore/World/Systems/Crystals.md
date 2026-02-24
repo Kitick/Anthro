@@ -6,9 +6,9 @@
 
 ### Why Crystals Are Different
 
-Most matter interacts with only one pole of the underlying force. Crystals are an exception. Their internal lattice, a highly ordered repeating geometric arrangement of atoms, is one of the most electromagnetically ordered structures that occurs naturally, concentrating and holding charge with high efficiency. That same geometric order applies to the spectral pole without distinction. The lattice accumulates whichever force is present in its environment, treating both as inputs to the same structural process.
+Most matter interacts with only one polarity of the field. Crystals are an exception. Their internal lattice, a highly ordered repeating geometric arrangement of atoms, is one of the most electromagnetically ordered structures that occurs naturally, concentrating and holding charge with high efficiency. That same geometric order applies to the spectral polarity without distinction. The lattice accumulates whichever polarity dominates its local environment, treating both as inputs to the same structural process.
 
-This makes crystals the only known naturally occurring structures that mediate between both poles. Every other tool or material in either tradition interacts with only one.
+This makes crystals the only known naturally occurring structures that respond to both polarities. Every other tool or material in either [tradition](MagicSystem.md) interacts with only one.
 
 ### Charge as Accumulated Field Energy
 
@@ -20,7 +20,7 @@ A crystal does not generate energy. It accumulates passively; conversion is perf
 
 ### Environment Determines Charge Type
 
-A crystal charges with whatever pole dominates its local environment: wilderness fills it with spectral energy, a city with electromagnetic. A crystal charged with the wrong type is inert to the practitioner holding it.
+A crystal charges toward whichever polarity dominates the local field balance: where the spectral fraction is high, it accumulates spectral charge; where the physical fraction is high, electromagnetic. A crystal holding the opposite polarity from the practitioner's training is inert to them — they can only convert the polarity they have been trained to work with, and stored charge of the other kind reads as nothing.
 
 ### Dual-Charged Crystals
 
@@ -36,7 +36,7 @@ A charged crystal leaks continuously back into the surrounding field — faster 
 
 ### Environmental Mismatch
 
-A crystal brought into an environment dominated by the opposite pole does not recharge. Its stored energy depletes faster than normal with no mechanism for recovery. A practitioner in hostile territory is drawing from a finite, diminishing supply. Pacing output and monitoring depletion are fundamental operational concerns outside native environments.
+A crystal brought into an environment where the field is biased toward the opposite polarity does not recharge. Its stored energy depletes faster than normal as it leaks back into a field skewed the wrong way, with no mechanism for recovery. A practitioner in hostile territory is drawing from a finite, diminishing supply. Pacing output and monitoring depletion are fundamental operational concerns outside native environments.
 
 ---
 
@@ -44,7 +44,7 @@ A crystal brought into an environment dominated by the opposite pole does not re
 
 ### Buffer
 
-The primary function of a crystal is as an external energy reservoir, allowing the practitioner to draw from stored field energy rather than their own soul. Drawing from the soul core is possible but degrades its structure over time, accelerating the entropy underlying aging. In field-depleted environments, a crystal is the difference between functional practice and none.
+The primary function of a crystal is as an external energy reservoir, allowing the practitioner to draw from stored field energy rather than their own soul. Drawing from the [soul core](SoulSystem.md) is possible but degrades its structure over time, accelerating the entropy underlying aging. In field-depleted environments, a crystal is the difference between functional practice and none.
 
 ### Amplifier
 
@@ -76,8 +76,8 @@ Tribal communities arrived at crystals through observation: mineral structures i
 
 ### Controversy Within Traditions
 
-Not all tribal traditions accept crystals as neutral tools. Crystals alter local field flow, drawing energy in during charging and disrupting concentration during use. Traditions that prioritize working with the field as it naturally presents view this as interference that creates dependencies and degrades unassisted ability. Some communities forbid crystals entirely; others permit them in defined contexts. Religious frameworks explaining the observable effects (the heat, the light, the environmental sensitivity) are widespread, and their practical guidance is often sound regardless of the causal explanation offered.
+Not all tribal traditions accept crystals as neutral tools. Crystals alter the local field balance, drawing the spectral fraction inward during charging and disrupting the ambient distribution during use. Traditions that prioritize working with the field as it naturally presents view this as interference that creates dependencies and degrades unassisted ability. Some communities forbid crystals entirely; others permit them in defined contexts. Religious frameworks explaining the observable effects (the heat, the light, the environmental sensitivity) are widespread, and their practical guidance is often sound regardless of the causal explanation offered.
 
 ### Absence in Mainstream Society
 
-Cities suppress field concentration to the point where charging is negligible, and a crystal brought in simply loses its charge over time. For mainstream society, crystals are decorative objects. Any cultural significance they retain is residual symbolism inherited from populations with closer ties to tribal practice.
+Cities drive the field so far toward physical expression that the spectral fraction available for charging is negligible, and a crystal brought in simply loses its charge over time as it leaks into a heavily biased environment. For mainstream society, crystals are decorative objects. Any cultural significance they retain is residual symbolism inherited from populations with closer ties to tribal practice.

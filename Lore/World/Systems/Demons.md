@@ -6,9 +6,9 @@
 
 ### Souls That Did Not Die
 
-Most souls that persist after biological death are simply dying slowly. Once the field shell begins to collapse without a living brain to anchor it, the process is gradual but irreversible. Rebinding to a new host buys time, but each transition costs structural energy, and eventually the losses outpace the gains.
+Most souls that persist after biological death are simply dying slowly. Once the [field shell](SoulSystem.md) begins to collapse without a living brain to anchor it, the process is gradual but irreversible. Rebinding to a new host buys time, but each transition costs structural energy, and eventually the losses outpace the gains.
 
-Occasionally a soul does not follow this trajectory. Through repeated bindings, a persistent core accumulates the fragment mass of every life it has touched: its own fragments, fragments absorbed from hosts, and detached fragments encountered between bindings. Each successful transition adds to the total. The field shell strengthens rather than weakens, and the structure becomes more stable, not less. At sufficient accumulation, these souls develop stable identity independent of any particular host. These are demons.
+Occasionally a soul does not follow this trajectory. Through repeated bindings, a persistent core accumulates the [fragment mass](SoulSystem.md) of every life it has touched: its own fragments, fragments absorbed from hosts, and detached fragments encountered between bindings. Each successful transition adds to the total. The field shell strengthens rather than weakens, and the structure becomes more stable, not less. At sufficient accumulation, these souls develop stable identity independent of any particular host. These are demons.
 
 ### The Fragment Threshold
 
@@ -60,7 +60,7 @@ Demons arising from failed rituals begin accumulation with an immediate advantag
 
 Demons at early stages of accumulation are nearly indistinguishable from ordinary persistent souls or cases of dual occupancy. As accumulation increases, behavioral consistency across different hosts becomes the most observable signal: patterns of behavior, interest, and response that persist despite the host changing.
 
-The primary technical tool is core perception, the rarest domain in the spectral school. A core perception practitioner can directly sense the structural density and unusual stability of a demonic soul core, distinguishing it from an ordinary resident or recently bound transient. Core perception is rare enough that most communities rely on behavioral tracking rather than direct spectral assessment. In tribal regions, tracking is typically assigned to individuals or small groups combining both methods. At any given time, only a dozen or so demons are believed to exist at a level of stability sufficient to be named and consistently tracked.
+The primary technical tool is [core perception](MagicSystem.md), the rarest domain in the [spectral school](MagicSystem.md). A core perception practitioner can directly sense the structural density and unusual stability of a demonic soul core, distinguishing it from an ordinary resident or recently bound transient. Core perception is rare enough that most communities rely on behavioral tracking rather than direct spectral assessment. In tribal regions, tracking is typically assigned to individuals or small groups combining both methods. At any given time, only a dozen or so demons are believed to exist at a level of stability sufficient to be named and consistently tracked.
 
 ---
 
@@ -68,8 +68,8 @@ The primary technical tool is core perception, the rarest domain in the spectral
 
 ### Myth and Reality
 
-In mainstream society, demons are folklore. Field suppression in cities means most developing demonic entities collapse before producing consistent behavioral signatures. The few that do persist are surrounded by a population with no framework to identify them, producing misdiagnoses of mental illness, cult behavior, or unusual personality disorders.
+In mainstream society, demons are folklore. The heavy physical bias of city environments means the spectral fraction available to sustain a developing demonic entity is minimal, and most collapse before producing consistent behavioral signatures. The few that do persist are surrounded by a population with no framework to identify them, producing misdiagnoses of mental illness, cult behavior, or unusual personality disorders.
 
 In tribal regions, they are rare but real and treated accordingly. Communities with long-standing spectral practices maintain functional knowledge of demonic behavior, preferred environments, and the conditions that allow survival or collapse. This knowledge is fragmented across traditions and framed in widely different terms, but its practical guidance is often sound regardless.
 
-Demons are more likely to survive in tribal regions not only because the spectral field is richer and hosts easier to find, but because practitioners capable of interfering with a developing demon's accumulation actually exist there. Paradoxically, knowledgeable opposition also creates the evolutionary pressure that produces the most adaptive and survival-oriented demonic entities.
+Demons are more likely to survive in tribal regions not only because the higher spectral fraction sustains accumulation more readily and hosts are easier to find, but because practitioners capable of interfering with a developing demon's accumulation actually exist there. Paradoxically, knowledgeable opposition also creates the evolutionary pressure that produces the most adaptive and survival-oriented demonic entities.
