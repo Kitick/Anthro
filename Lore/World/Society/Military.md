@@ -40,8 +40,12 @@ The military is organized as a hierarchy. There are two main flavors of personne
 
 ## Commander
 
-There are only a few sitting commanders, and they function as the highest level of military command. They each get a special title for their domain, like General of the Army, Admiral of the Navy, Marshall of the Air Force. They organize everything to do with the military, and interface with the government through the military committee.
+There are only a few sitting commanders, and they function as the highest level of military command. They each get a special title for their domain, like General of the Army, Admiral of the Navy, Marshall of the Air Force. They organize everything to do with the military and interface with the Senate exclusively through the Military Committee.
 
-## Committee
+## The Military Committee
 
-The military committee acts as the interface between the commanders and the Senate. The committee is responsible for promoting commanders and for keeping the separation of politics and strategy.
+The Military Committee is the structured interface between military command and the Senate. Committee members are not Senators and are not military officers. They are a separate body whose only function is to manage this boundary.
+
+The Committee promotes and confirms Commanders, audits the alignment between Senate directives and military actions, and ensures that the military operates in service of national decisions rather than the interests of individual political actors. No Commander communicates directly with a Senator outside of formal Committee proceedings.
+
+This structure exists because the military is the only institution in the nation capable of projecting force at a national scale. Keeping political access to that force formal, documented, and mediated is the single purpose of the Committee.
