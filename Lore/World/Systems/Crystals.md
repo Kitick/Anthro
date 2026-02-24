@@ -6,7 +6,7 @@
 
 ### Why Crystals Are Different
 
-Most matter interacts with only one polarity of the field. Crystals are an exception. Their internal lattice, a highly ordered repeating geometric arrangement of atoms, is one of the most electromagnetically ordered structures that occurs naturally, concentrating and holding charge with high efficiency. That same geometric order applies to the spectral polarity without distinction. The lattice accumulates whichever polarity dominates its local environment, treating both as inputs to the same structural process.
+Most matter interacts with only one polarity of [the field](TheField.md). Crystals are an exception. Their internal lattice, a highly ordered repeating geometric arrangement of atoms, is one of the most electromagnetically ordered structures that occurs naturally, concentrating and holding charge with high efficiency. That same geometric order applies to the spectral polarity without distinction. The lattice accumulates whichever polarity dominates its local environment, treating both as inputs to the same structural process.
 
 This makes crystals the only known naturally occurring structures that respond to both polarities. Every other tool or material in either [tradition](MagicSystem.md) interacts with only one.
 

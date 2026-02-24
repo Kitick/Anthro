@@ -15,19 +15,19 @@ In mainstream society, the soul system is not recognized as a physical phenomeno
 - Spiritualist interpretations, such as reincarnation or ascension
 - Secular interpretations that treat the soul as symbolic identity or personality
 
-Some belief systems loosely resemble the actual mechanics of the system, but all interpret it symbolically rather than physically. Because the field's spectral expression is a small fraction of what is present in dense population centers, direct interaction is rare, reinforcing the belief that the system is not real. This creates a feedback loop: disbelief prevents practice, and lack of practice prevents evidence.
+Some belief systems loosely resemble the actual mechanics of the system, but all interpret it symbolically rather than physically. Because [the field's](TheField.md) spectral expression is a small fraction of what is present in dense population centers, direct interaction is rare, reinforcing the belief that the system is not real. This creates a feedback loop: disbelief prevents practice, and lack of practice prevents evidence.
 
 As a result, the soul system in mainstream society persists only as myth, superstition, or personal belief. Cases of [possession, fragmentation, or soul interference](SoulSystem.md) are typically misdiagnosed as mental illness, stress disorders, or hallucinations.
 
 ## Environmental Suppression of Practice
 
-High population density drives the local field heavily toward physical expression. The sustained electromagnetic output of infrastructure, technology, and millions of nervous systems continuously biases the balance away from the spectral polarity, leaving too small a fraction to sense, gather, or manipulate reliably — even for trained individuals. This is a major reason spectral practice never scaled into mainstream use, even in periods when knowledge of it was more widespread. The field itself is present everywhere; it is the ratio of expression that cities have driven out of reach.
+High population density drives the [local field](TheField.md) heavily toward physical expression. The sustained electromagnetic output of infrastructure, technology, and millions of nervous systems continuously biases the balance away from the spectral polarity, leaving too small a fraction to sense, gather, or manipulate reliably — even for trained individuals. This is a major reason spectral practice never scaled into mainstream use, even in periods when knowledge of it was more widespread. The field itself is present everywhere; it is the ratio of expression that cities have driven out of reach.
 
 ## Tribal Societies: Practical Knowledge and Fragmented Theory
 
 Tribal cultures retain direct interaction with the field's spectral expression through long-standing practices, training, and ritual. They recognize it as a real, measurable phenomenon and teach techniques for sensing, storing, and shaping it. Unlike mainstream society, tribal knowledge is maintained through lived experience rather than written theory.
 
-Tribes share a general understanding of the field but differ in interpretation. Some view it spiritually, others pragmatically, and others symbolically. Two tribes may use identical techniques while explaining them in entirely different terms. There is no unified theory, only a collection of working models passed down through practice.
+Tribes share a general understanding of [the field](TheField.md) but differ in interpretation. Some view it spiritually, others pragmatically, and others symbolically. Two tribes may use identical techniques while explaining them in entirely different terms. There is no unified theory, only a collection of working models passed down through practice.
 
 Tribal societies selectively adopt modern technologies but avoid systems that interfere with field interaction, such as high-density urbanization or mass infrastructure.
 

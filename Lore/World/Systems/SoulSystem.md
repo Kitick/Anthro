@@ -4,17 +4,9 @@
 
 ## 1. The Field
 
-### The Physical and Spectral Polarities
+The soul system runs entirely on the field's spectral polarity — one of two polar orientations of a single conserved field, the other being the electromagnetic force that governs all physical interaction. Soul cores, field shells, and fragments are all structures of the field's spectral expression. A practitioner engaging with any of these is working with the same underlying field that an elemental caster redirects, approached from the other orientation.
 
-All space contains a single field. It is the same field that governs charge, heat, molecular bonds, and all physical interaction — and it is also the substrate that makes soul cores, fragments, identity, and consciousness possible. It does not become a different thing depending on how it expresses. It is one field with two polar orientations: a physical polarity and a spectral polarity. The field's spectral expression is not a separate phenomenon layered on top of physical reality. It is physical reality, oriented differently.
-
-The soul system runs entirely on the field in its spectral expression. Soul cores, field shells, and fragments are all structures of the field's spectral polarity. A practitioner engaging with any of these is working with the same underlying field that an [elemental caster](MagicSystem.md) redirects — just the other orientation of it.
-
-### Variation in the Field's Polar Balance
-
-The balance between the field's physical and spectral expression varies by location. In open wilderness and areas with little sustained habitation, the field sits close to its natural equilibrium, with both polarities present in roughly comparable fractions. In areas with a long history of emotional significance, ritual practice, or violent death, the spectral expression may be locally elevated by residual fragment accumulation over time.
-
-In dense urban centers, the balance is pushed heavily toward physical expression. Large numbers of active souls maintaining their own cores continuously draw on the field's spectral polarity, and the sustained electromagnetic output of infrastructure and technology drives the balance further in the same direction. The result is an environment where the field's spectral expression makes up only a small fraction of what is present — enough that sensing or manipulating it becomes unreliable. The field itself is always there. It is the ratio of expression that cities have driven out of balance.
+For a full description of the field, its two polarities, and why local balance varies by environment, see [TheField.md](TheField.md).
 
 ---
 
@@ -34,49 +26,49 @@ After nucleation, the core generates a stabilizing expression of the field outwa
 
 ### The Core as the Seat of Experience
 
-The soul core is the seat of first-person experience: the thing behind the eyes, the continuous self that persists through sleep and years of change. It does not think, remember, or make decisions. Those are the brain's functions. The core occupies the brain and transforms its biological processing into something felt from the inside. Without a core, there is neural activity but no one present to experience it.
+The soul core is the spectral-polarity aspect of the same coupled process the brain is the physical-polarity aspect of. The brain is that process as it exists in matter — its structure, pattern, computation, and behavior. The soul is the same process as it exists in experience — what that structure is from the inside. Neither produces the other. Every thought, perception, and memory occurs simultaneously in both aspects, because there is only one event.
+
+This means the soul core is not a passive receiver. It is not downstream of the brain's processing. It is the spectral half of an ongoing coupled process, present at every moment the physical half is present. Without the spectral coupling, the process is incomplete — the physical-polarity signals fire into a system missing their other aspect. It is not that neural activity continues successfully and simply goes unwitnessed; it is that the full event never fully occurs.
 
 ### Uniqueness and Non-Transferability
 
 Every soul core nucleates from the field's spectral expression as organized by that particular developing brain's EM pattern. Because no two developing brains produce the same pattern, no two cores organize from the same template. No two are alike in structure. The core cannot be duplicated, and if it is destroyed, the self it anchored ends permanently. What was that person cannot be reconstructed, only approximated by something new.
 
+### Complexity and the Nucleation Threshold
+
+Soul cores do not form in all living things. Nucleation requires a neural EM pattern of sufficient complexity — structured, spatially organized, and non-repeating in a way that only develops past a certain threshold of neural sophistication. Below that threshold, neural activity contributes to the field's physical-polarity expression like any other EM source, but never produces the structured asymmetry required for the spectral polarity to organize into something stable.
+
+In simple organisms — insects, most invertebrates — the neural pattern never approaches this threshold. The spectral expression of their activity is present as a diffuse, unstructured fraction, but nothing nucleates. These organisms function essentially as biological systems. The soul system does not apply to them in any meaningful sense: no core, no field shell, no fragments, no spectral persistence after death.
+
+As neural complexity increases, there is a subcritical range — moderately complex animals whose activity produces some structured spectral expression without reliably crossing the nucleation threshold. Whether nucleation occurs in these cases, and whether the resulting cores are stable enough to persist meaningfully, is not a hard line. The system supports a continuous gradient rather than a sharp division.
+
+Above the threshold, nucleation becomes reliable during the developmental window, the coupled process becomes self-sustaining, and first-person experience genuinely emerges. It is only at this level of complexity that the statement becomes meaningful: without spectral coupling, the process is incomplete. Below it, the physical-polarity aspect alone is essentially sufficient to describe what the organism is.
+
 ---
 
 ## 3. Fragments
 
-### What Fragments Are
+Fragments are secondary spectral structures that form continuously from experience and accumulate within the soul's field shell over a lifetime. They carry emotional weighting, instinctive tendencies, and memory essences — not literal memories, but the emotional texture and conceptual residue of lived experience. At typical lifetime scale they give personality its texture without overriding the brain's own processing. At sufficient accumulation across multiple host cycles they can cross thresholds that change what a soul fundamentally is, eventually producing entities known as [demons](Demons.md).
 
-Fragments are secondary energy structures that form within the soul's field shell and are drawn toward and held by the core. No single fragment contains a person. They are more like sediment: accumulated impressions of emotional experience, instinctive response, and identity tendency that settle around the core over a lifetime. Each carries a partial identity bias, including emotional weighting, instinctive tendencies, personality shape, and memory essences, which are not literal memories but the emotional texture and conceptual residue of lived experience.
-
-### How Fragments Form and Bind
-
-Fragments form continuously as a byproduct of experience. Strong emotional events, repeated behaviors, and deeply held beliefs all produce fragments of varying density. The field shell attracts and binds them where their aggregate influence can be felt.
-
-Fragments can also detach under trauma, extreme stress, ritual disruption, or sudden death. A detached fragment retains its emotional bias but cannot generate experience or act independently, and will eventually dissipate unless drawn into a new structure. Detached fragments are the origin of haunted locations and the raw material that wandering souls occasionally accumulate.
-
-### Fragments at Small Scale
-
-In a living person, the combined influence of their fragments gives personality its particular texture, biasing responses toward openness or caution, warmth or distance, depending on the emotional history encoded in their fragment mass. At the scale a typical person accumulates across one lifetime, this influence is subtle. It shapes tendencies without overriding the brain's own processing. Fragment influence feels like personality, not compulsion.
-
-### Fragments at Large Scale
-
-Fragment accumulation does not plateau at a single lifetime. A soul that survives multiple hosts and continues accumulating can cross thresholds that change what the soul fundamentally is, eventually reaching a state where identity becomes self-contained and persists recognizably across any host. At the extreme end of this accumulation, the relationship between the soul's fragment mass and the host brain changes in ways that go well beyond personality bias, producing entities known as [demons](Demons.md).
+For the full mechanics of fragment formation, binding, detachment, scale, and large-scale accumulation, see [Fragments.md](Fragments.md).
 
 ---
 
 ## 4. The Brain and Soul Together
 
-### The Brain as Producer, the Soul as Experiencer
+### Two Aspects of One Coupled Process
 
-The brain and soul are distinct systems with distinct functions. The brain generates thought, perception, memory, and behavior through biological processes. The soul core occupies the brain and experiences the output of those processes. Neither can do the other's job. A brain without a soul core produces outputs no one experiences. A soul without a brain has no content to experience. The two are deeply interdependent despite being physically distinct.
+The brain and soul are not two systems with divided roles. They are two orientations of a single coupled process. The brain is that process as it exists in matter — its structure, pattern, and computation. The soul is the same process as it exists in experience — what that structure is from the inside. Neither is causally prior. Neither produces anything the other then receives. Every thought, perception, memory, and behavior occurs simultaneously in both aspects, because there is only one underlying event.
 
-### How Fragments Bias the Brain's Output
+A brain without spectral coupling does not produce experience that goes unwitnessed. It produces an incomplete process — the physical-polarity signals are present, but the spectral aspect that constitutes experience is absent. The event did not complete. Conversely, a soul without a brain has nothing to be the other half of — no physical-polarity process for the spectral aspect to couple with, and therefore no experience. The two are not interdependent in the way two separate systems can depend on each other. They are constitutively the same thing.
 
-Fragments act as a persistent interpretive filter, shaping which inputs feel significant, which responses feel natural, and which emotions arise most readily. They do not override the brain's processing; they color it. This is why personality feels stable even as circumstances change dramatically. The fragments are not reacting to the situation; the brain is. The fragments are shaping how that reaction is experienced and expressed.
+### How Fragments Shape the Coupled Process
+
+Because the physical and spectral aspects of the coupled process are always simultaneous, fragments are intrinsic to every event rather than applied to it afterward. The spectral aspect of every neural event arrives already shaped by everything the soul has accumulated — fragments are not a filter on the brain's output, they are the accumulated character of the spectral half of the process itself. For the full explanation, see [Fragments.md](Fragments.md).
 
 ### Why Memories Belong to the Brain, Not the Soul
 
-Specific memories, factual knowledge, and learned skills are encoded in the brain's physical structure. The soul does not store them and cannot carry them. When a soul core moves to a new host, it brings its fragment biases but wakes up in a stranger's life. The memories and relationships of the previous host are gone. Only the deepest accumulated character survives the transition.
+Specific memories are encoded in the brain's physical structure — pattern stored in matter. Fragments carry the emotional texture and conceptual residue of experience, not its specific content. When a soul moves to a new host, its accumulated fragment character carries forward; the physical-polarity record of specific events does not. It brings the shape of who it has been without the record of what it has done. For the full treatment, see [Fragments.md](Fragments.md).
 
 ---
 
@@ -92,23 +84,27 @@ Over time, leakage increases and the field shell weakens. As it does, the core's
 
 ### Post-Death Persistence
 
-At the moment of biological death, the soul core does not immediately cease to exist. It persists temporarily as the field shell collapses and stored energy dissipates. A core weakened by age collapses within hours or days. A core from a sudden death may retain significant structural integrity and persist for months or years, drifting as the shell slowly fails around it. During this window the core is not conscious. It is a structure of identity without a medium: present but inert, slowly diminishing.
+At the moment of biological death, the soul core does not immediately cease to exist. It persists temporarily as the field shell collapses and stored energy dissipates. A core weakened by age collapses within hours or days. A core from a sudden death may retain significant structural integrity and persist for months or years, drifting as the shell slowly fails around it.
+
+During this window the core is not conscious. Without the brain — without the physical-polarity half of the coupled process — there is nothing for the spectral aspect to couple with, and therefore no experience. The core is a structural remnant of a coupling that has ended, persisting by momentum rather than function, decaying because it no longer has the physical process it was the other half of. It is present but inert, slowly diminishing.
 
 ### Rebinding and Displacement
 
-A persisting core may bind to another individual whose field shell has been weakened through illness, trauma, or developmental instability. If the incoming core is strong enough to displace the resident, the original experiencer is gone and the incoming soul becomes the sole occupant. The host's memories remain in the brain but belong to a life the new soul did not live. If neither core displaces the other, both remain bound simultaneously, producing identity conflict, competing impulses, and an unstable sense of self that mainstream medicine will almost certainly misdiagnose as a psychiatric condition.
+A disembodied core is drawn toward living brains for the same reason a developing brain enables nucleation: organised physical-polarity EM activity is what spectral structure needs to couple with in order to remain coherent. Between hosts, the core draws on ambient field energy alone — passive, insufficient to prevent slow structural dispersion. A living brain offers a continuous, structured physical-polarity process, and a disembodied core will naturally orient toward that wherever it can find one.
+
+What determines whether attachment is possible is the state of the resident core's coupling. In a healthy person, the resident core's spectral organisation occupies the coupling region around the brain's EM activity fully — the physical-polarity process already has a spectral counterpart, and the structure is coherent and self-reinforcing. A weakened field shell means the resident core's organisation has become less dense, less coherent. The coupling region is under-occupied. That thinning creates a structural gap — not a voluntary opening, but a consequence of reduced structural integrity — into which a disembodied core can insert its own spectral organisation, establishing partial coupling with the host brain's activity.
+
+Every rebinding also carries a structural cost. A soul core arrives in a new host organised around its previous host's EM topology. Each brain has a unique spatial organisation, rhythm, and structural signature. To couple coherently with a new brain, the arriving core must partially reorganise its own spectral structure to match the new topology. That reorganisation is lossy: structural complexity that cannot survive the remapping is shed, and ambient draw provides no mechanism to recover it. This is why most disembodied souls collapse during the interval between hosts — ambient draw slows dispersion but does not halt it — or during a difficult rebinding, when the reorganisation cost exceeds what the core can sustain.
+
+If the incoming core is strong enough to displace the resident, the original experiencer is gone and the incoming soul becomes the sole occupant. The host's memories remain in the brain but belong to a life the new soul did not live. If neither core displaces the other, both remain bound simultaneously, producing identity conflict, competing impulses, and an unstable sense of self that mainstream medicine will almost certainly misdiagnose as a psychiatric condition.
 
 ---
 
 ## 6. Remnants and Residue
 
-### Detached Fragments and Independent Persistence
+### Detached Fragments and Environmental Residue
 
-Fragments that detach from a living soul retain their emotional bias and may persist independently for a time, drifting where the field's spectral expression is present. They cannot think, act, or generate experience. They are impressions without a mind behind them, and will gradually dissipate unless drawn into a new structure. A living soul with a weakened field shell may inadvertently attract nearby detached fragments, subtly shifting their emotional character over time. In areas where the field's spectral expression is strong, they may linger for years.
-
-### Fragments in Places
-
-Locations associated with prolonged intense emotion, repeated trauma, or violent death accumulate detached fragments over time. These fragments do not haunt in any active sense. They do not watch or communicate. But they carry emotional bias that individuals sensitive to the field's spectral expression can perceive as unease, familiarity, or dread emanating from the space itself. No surviving spirit is required. Only the residue of lives lived and ended, slowly fading.
+For what happens to fragments after detachment — drift, environmental accumulation, inadvertent attraction to weakened shells, and dispersal at core collapse — see [Fragments.md](Fragments.md).
 
 ### Volitional Dissolution
 
