@@ -1,6 +1,7 @@
-# Rathick "Rath" Chee
+# Rathick "Rath"
 
 **Species:** Cheetah\
+**Gender:** Male\
 **Age:** 26\
 **Height:** 180 cm\
 **Weight:** 85 kg\

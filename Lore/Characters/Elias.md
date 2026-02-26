@@ -1,6 +1,7 @@
 # Elias "Ghost" Black
 
 **Species:** Timber Wolf\
+**Gender:** Male\
 **Age:** 34\
 **Height:** 185 cm\
 **Weight:** 90 kg\

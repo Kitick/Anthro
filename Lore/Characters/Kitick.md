@@ -1,6 +1,7 @@
-# Kitick "Kit" Fox
+# Kitick "Kit"
 
 **Species:** Silver Fox\
+**Gender:** Male\
 **Age:** 24\
 **Height:** 170 cm\
 **Weight:** 69 kg\

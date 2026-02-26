@@ -1,6 +1,7 @@
 # Nico Wyatt
 
 **Species:** Red Panda\
+**Gender:** Male\
 **Age:** 21\
 **Height:** 152 cm\
 **Weight:** 56 kg\

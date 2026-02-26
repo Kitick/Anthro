@@ -1,6 +1,7 @@
 # Terran Addari
 
 **Species:** King Cheetah\
+**Gender:** Male\
 **Age:** 25\
 **Height:** 180 cm\
 **Weight:** 85 kg\
