@@ -30,7 +30,7 @@ Most practitioners in the spectral school develop baseline perception as part of
 
 ### Fragment Work
 
-Fragment work is the most accessible domain in the spectral school and the most widely practiced across different cultures and traditions. It concerns [fragments](Fragments.md) — secondary spectral structures that accumulate around the soul core over a lifetime, carrying emotional bias, identity tendency, and memory essence.
+Fragment work is the most accessible domain in the spectral school and the most widely practiced across different cultures and traditions. It concerns [fragments](Fragments.md), secondary spectral structures that accumulate around the soul core over a lifetime, carrying emotional bias, identity tendency, and memory essence.
 
 Practical applications include drawing loose environmental fragments into stable structures, dispersing accumulated fragments from a location, reading the emotional history carried in a person's fragment mass, reinforcing weakened fragment binding in someone who has suffered trauma or significant loss, and cleansing corrupted or misaligned fragments that are producing destabilizing influences on the host's experience and behavior.
 

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Elemental casting is the practice of drawing ambient electromagnetic energy and converting it into specific physical processes. Casters do not create energy. They align, draw, and redirect energy that already exists in the environment. The visible effects — fire, lightning, ice, corrosion — are emergent consequences of the underlying energy conversion rather than things being conjured directly. A thermal caster does not summon fire. They move heat until combustion occurs as a natural result.
+Elemental casting is the practice of drawing ambient electromagnetic energy and converting it into specific physical processes. Casters do not create energy. They align, draw, and redirect energy that already exists in the environment. The visible effects, including fire, lightning, ice, and corrosion, are emergent consequences of the underlying energy conversion rather than things being conjured directly. A thermal caster does not summon fire. They move heat until combustion occurs as a natural result.
 
 All elemental work follows three practical constraints. Energy must come from the environment or a [crystal](Crystals.md), not from the caster's own soul. Physical, emotional, and cognitive coherence determines how controlled the output is, because misalignment causes instability, energy dumping, or uncontrolled effects. And distance multiplies cost, because energy is easiest to shape close to the body and remote effects require extended alignment, environmental paths, or anchored crystals.
 

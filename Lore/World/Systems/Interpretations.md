@@ -2,7 +2,7 @@
 
 ## Cultural Division
 
-Society is broadly divided into two cultural groups: tribal societies and mainstream civilization. This division is not technological but epistemological — a difference in how knowledge is preserved, validated, and applied. Both groups exist within the same physical world and are subject to the same [soul system](SoulSystem.md), but their interaction with it differs fundamentally.
+Society is broadly divided into two cultural groups: tribal societies and mainstream civilization. This division is not technological but epistemological, a difference in how knowledge is preserved, validated, and applied. Both groups exist within the same physical world and are subject to the same [soul system](SoulSystem.md), but their interaction with it differs fundamentally.
 
 Mainstream civilization prioritizes scalable systems, abstraction, and externalized knowledge. Tribal societies prioritize embodied knowledge, practice, and continuity. As a result, the soul system is functionally present in tribal life and functionally absent in urban society, despite being physically universal.
 
@@ -21,7 +21,7 @@ As a result, the soul system in mainstream society persists only as myth, supers
 
 ## Environmental Suppression of Practice
 
-High population density drives the [local field](TheField.md) heavily toward physical expression. The sustained electromagnetic output of infrastructure, technology, and millions of nervous systems continuously biases the balance away from the spectral polarity, leaving too small a fraction to sense, gather, or manipulate reliably — even for trained individuals. This is a major reason spectral practice never scaled into mainstream use, even in periods when knowledge of it was more widespread. The field itself is present everywhere; it is the ratio of expression that cities have driven out of reach.
+High population density drives the [local field](TheField.md) heavily toward physical expression. The sustained electromagnetic output of infrastructure, technology, and millions of nervous systems continuously biases the balance away from the spectral polarity, leaving too small a fraction to sense, gather, or manipulate reliably, even for trained individuals. This is a major reason spectral practice never scaled into mainstream use, even in periods when knowledge of it was more widespread. The field itself is present everywhere; it is the ratio of expression that cities have driven out of reach.
 
 ## Tribal Societies: Practical Knowledge and Fragmented Theory
 
@@ -39,4 +39,4 @@ Improper use or repeated practice can weaken the barrier permanently, allowing p
 
 ## Demons: Myth and Reality
 
-The cultural division described above determines whether [demons](Demons.md) are folklore or a practical concern. In mainstream society they are considered myth — the field's spectral fraction in cities is too small to sustain accumulation, so developing demonic entities collapse before producing consistent behavioral signatures, and the population has no framework to identify the rare cases that persist. In tribal regions, demons are rare but real, tracked by specialized practitioners and treated as a known risk of the spectral environment. The same epistemological gap that separates the two cultures on the soul system generally applies here: one side lacks the conditions to encounter the phenomenon, and the other is equipped to recognize it.
+The cultural division described above determines whether [demons](Demons.md) are folklore or a practical concern. In mainstream society they are considered myth; the field's spectral fraction in cities is too small to sustain accumulation, so developing demonic entities collapse before producing consistent behavioral signatures, and the population has no framework to identify the rare cases that persist. In tribal regions, demons are rare but real, tracked by specialized practitioners and treated as a known risk of the spectral environment. The same epistemological gap that separates the two cultures on the soul system generally applies here: one side lacks the conditions to encounter the phenomenon, and the other is equipped to recognize it.

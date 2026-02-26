@@ -20,7 +20,7 @@ A crystal does not generate energy. It accumulates passively; conversion is perf
 
 ### Environment Determines Charge Type
 
-A crystal charges toward whichever polarity dominates the local field balance: where the spectral fraction is high, it accumulates spectral charge; where the physical fraction is high, electromagnetic. A crystal holding the opposite polarity from the practitioner's training is inert to them — they can only convert the polarity they have been trained to work with, and stored charge of the other kind reads as nothing.
+A crystal charges toward whichever polarity dominates the local field balance: where the spectral fraction is high, it accumulates spectral charge; where the physical fraction is high, electromagnetic. A crystal holding the opposite polarity from the practitioner's training is inert to them; they can only convert the polarity they have been trained to work with, and stored charge of the other kind reads as nothing.
 
 ### Dual-Charged Crystals
 
@@ -32,7 +32,7 @@ A crystal at the boundary between environments may accumulate both types of char
 
 ### Natural Leakage
 
-A charged crystal leaks continuously back into the surrounding field — faster near full charge, slower near empty. A partially charged crystal in a neutral environment bleeds off over weeks to months. Leakage produces heat and faint light proportional to the rate of loss.
+A charged crystal leaks continuously back into the surrounding field, faster near full charge and slower near empty. A partially charged crystal in a neutral environment bleeds off over weeks to months. Leakage produces heat and faint light proportional to the rate of loss.
 
 ### Environmental Mismatch
 
