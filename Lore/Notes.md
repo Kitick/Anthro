@@ -7,7 +7,7 @@ Define Noodle
 
 Define Rivane
 Define Cindral
-Define Captial
+Define Capital
 
 Revise Arwyn
 Revise Elias

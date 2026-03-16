@@ -93,7 +93,7 @@ Dialogue options include questioning the lord.
 
 Elias, being skeptical and untrusting of strangers in nature, decides that the lord doesn't have enough evidence of Cindral's flaws to convince him. He returns to the village, unable to do much about the bandits seeing as they are backed by the lord.
 
-Once back in Cindral, Elias spends a few more days deciding what to do about his dilemma. He notices that the customs and culture of the village do match what the lord tried to warn him about (everyone is very young, all people blindly believe the same religion, strange rituals) He is uneasy. A few days later, Loren asks Elias to attend his 'ascension rite' which Elias assumes is some sort of coming of age ceremony. Curious about Cindral's religious practices, and loyal to his new friend, he agrees to go.
+Once back in Cindral, Elias spends a few more days deciding what to do about his dilemma. He notices that the customs and culture of the village do match what the lord tried to warn him about (everyone is very young, all people blindly believe the same religion, strange rituals) He is uneasy. A few days later, Lorean asks Elias to attend his 'ascension rite' which Elias assumes is some sort of coming of age ceremony. Curious about Cindral's religious practices, and loyal to his new friend, he agrees to go.
 
 He realizes that everything the lord said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice. Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the lord's village, now wanted by Cindral's people.
 
