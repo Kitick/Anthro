@@ -1,3 +1,4 @@
+Define Arwyn
 Define BBEG
 Define BBEG Demon
 Define Kitick Demon
@@ -7,8 +8,9 @@ Define Noodle
 
 Define Rivane
 Define Cindral
-Define Capital
+Define Axiom
 
-Revise Arwyn
 Revise Elias
 Revise Kitick
+
+Add gods to Senara
