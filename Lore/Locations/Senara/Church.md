@@ -34,3 +34,13 @@ The Church of Senara is a theological order created to spread the religion of (g
 - **Inquisitor General (Specialized Cardinal-level)**
 
   Chief enforcer of doctrinal purity and investigator of heresy and demonic corruption across all Church territories. The Inquisitor General commands a network of purifiers and inquisitors, conducting interrogations and ritualistic cleansing. This role operates at the same authority level as Cardinals but with specialized focus on spiritual threats.
+
+## Ceremonial Roles
+
+- **Saint's Chosen**
+
+  A temporary position selected annually by each of the 12 major cities in Senara to represent the patron saint of that city. During the Founding Festival held in the capital, the 12 Saints' Chosen reenact the divine founding of their respective cities and the nation as a whole. This is considered a great civic honor reflecting the city council's judgment and the chosen individual's character and standing. The role is ceremonial in nature and carries no authority within the Church hierarchy. At the conclusion of the festival, the title is formally renounced and the individual returns to their ordinary status.
+
+- **Festival Herald**
+
+  The annual organizer and primary planner of the Founding Festival, appointed jointly by the capital's city council and the Church hierarchy. The Festival Herald coordinates all ceremonial aspects of the festival, directs the Saints' Chosen in their reenactments, and serves as the chief intermediary between the visiting delegations and the capital's leadership. This role demands diplomatic skill, logistical expertise, and cultural sensitivity. The Herald holds considerable practical authority during the festival season but the position is renewed annually and carries no permanent Church rank.

@@ -6,8 +6,7 @@ Define Terran Dad
 Define BEAR
 Define Noodle
 
-Define Rivane
-Define Cindral
+Define ideals of 12 cities and saints
 Define Axiom
 
 Revise Elias
