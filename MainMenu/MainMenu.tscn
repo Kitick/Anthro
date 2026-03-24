@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://bfe5degw8ujyg" path="res://MainMenu/MainMenu.cs" id="1_cruaa"]
 [ext_resource type="Texture2D" uid="uid://de5r18wdkovbs" path="res://MainMenu/Placeholder.png" id="1_otibh"]
-[ext_resource type="PackedScene" uid="uid://bhsex3ichr4jv" path="res://NewGame/NewGame.tscn" id="2_b76km"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cruaa"]
 
@@ -24,7 +23,17 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nxm3p"]
 
-[node name="MainMenu" type="Control" unique_id=767249352 node_paths=PackedStringArray("NewGame", "LoadGame", "Options", "Settings", "Exit")]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g1826"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_npjie"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7t2hb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gej64"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qvidt"]
+
+[node name="MainMenu" type="Control" unique_id=767249352 node_paths=PackedStringArray("NewGame", "LoadGame", "Database", "Options", "Settings", "Exit")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -32,9 +41,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_cruaa")
-NewGameScene = ExtResource("2_b76km")
 NewGame = NodePath("MenuButtons/NewGame")
 LoadGame = NodePath("MenuButtons/LoadGame")
+Database = NodePath("MenuButtons/Database")
 Options = NodePath("MenuButtons/Options")
 Settings = NodePath("MenuButtons/Settings")
 Exit = NodePath("MenuButtons/Quit")
@@ -86,6 +95,17 @@ theme_override_styles/hover = SubResource("StyleBoxEmpty_kftou")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_nre7b")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_nxm3p")
 text = "Load game"
+alignment = 0
+
+[node name="Database" type="Button" parent="MenuButtons" unique_id=1074644346]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_g1826")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_npjie")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7t2hb")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_gej64")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_qvidt")
+text = "Database"
 alignment = 0
 
 [node name="Options" type="Button" parent="MenuButtons" unique_id=240993919]

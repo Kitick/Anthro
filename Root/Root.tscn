@@ -3,8 +3,10 @@
 [ext_resource type="Script" uid="uid://c40svd67qb2f3" path="res://Root/Root.cs" id="1_qxmvo"]
 [ext_resource type="PackedScene" uid="uid://c75bhvauvqawv" path="res://MainMenu/MainMenu.tscn" id="2_qvp85"]
 [ext_resource type="PackedScene" uid="uid://bhsex3ichr4jv" path="res://NewGame/NewGame.tscn" id="3_ggxq0"]
+[ext_resource type="PackedScene" uid="uid://babyiajdbk4bv" path="res://Wiki/Wiki.tscn" id="4_ggxq0"]
 
 [node name="Root" type="Node" unique_id=1381404480]
 script = ExtResource("1_qxmvo")
 MainMenuScene = ExtResource("2_qvp85")
 NewGameScene = ExtResource("3_ggxq0")
+WikiScene = ExtResource("4_ggxq0")

@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://babyiajdbk4bv"]
+
+[ext_resource type="Script" uid="uid://c2e8h63wihqii" path="res://Wiki/Wiki.cs" id="1_62k0a"]
+
+[node name="Wiki" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_62k0a")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.09803922, 0.09803922, 0.09803922, 1)
+
+[node name="Header" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+offset_bottom = 56.0
+
+[node name="Title" type="Label" parent="Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 22
+text = "Database"
+
+[node name="BackToMenu" type="Button" parent="Header"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Back to Menu"
+
+[node name="HSplit" type="HSplitContainer" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 56.0
+split_offset = 300
+
+[node name="Sidebar" type="VBoxContainer" parent="HSplit"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 0)
+
+[node name="SearchBox" type="LineEdit" parent="HSplit/Sidebar"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Search..."
+
+[node name="EntryTree" type="Tree" parent="HSplit/Sidebar"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+hide_root = true
+
+[node name="ContentPanel" type="VBoxContainer" parent="HSplit"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="NavBar" type="HBoxContainer" parent="HSplit/ContentPanel"]
+layout_mode = 2
+
+[node name="BackBtn" type="Button" parent="HSplit/ContentPanel/NavBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "←"
+disabled = true
+
+[node name="ForwardBtn" type="Button" parent="HSplit/ContentPanel/NavBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "→"
+disabled = true
+
+[node name="EntryTitle" type="Label" parent="HSplit/ContentPanel/NavBar"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
+
+[node name="Scroll" type="ScrollContainer" parent="HSplit/ContentPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Content" type="RichTextLabel" parent="HSplit/ContentPanel/Scroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+fit_content = true
+scroll_active = false

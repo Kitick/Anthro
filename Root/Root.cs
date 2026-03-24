@@ -8,6 +8,7 @@ namespace Root {
 		[Export] private PackedScene MainMenuScene = null!;
 		[Export] private PackedScene NewGameScene = null!;
 		[Export] private PackedScene LoadGameScene = null!;
+		[Export] private PackedScene WikiScene = null!;
 		[Export] private PackedScene SettingsScene = null!;
 
 		private Node? CurrentScene = null;
@@ -25,6 +26,7 @@ namespace Root {
 
 		public void ChangeToMainMenu() => ChangeScene(MainMenuScene);
 		public void ChangeToNewGame() => ChangeScene(NewGameScene);
+		public void ChangeToWiki() => ChangeScene(WikiScene);
 	}
 
 	public static class RootExtensions {
