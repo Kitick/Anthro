@@ -1,3 +1,7 @@
-# Cult of Cindral
+# Cult City of Cindral
 
-Elias's inciting incident.
+The second city of the godess Vesrynn, Cindral is a small foothills city in the southwest. One of the smallest cities in Senara, Cindral is relatively isolated. Though this city is very good at putting on a front for outsiders, they practice a very esoteric form of worship in favor of fanatic beliefs. From an outside perspective, they would likely be referred to as cultlike in their ideals. 
+
+Though the godess Vesrynn is a representation of inner reflection, truth, and identity the residents of cindral have decided to follow her teachings in a very different way from their sibling city. The soul has become the main focus of their worship, emphasizing a beleif that the soul is stronger the younger a person is. Following this ideal, a selection of citizens are ritualistically sacrificed when they turn 30 (seen as an optimal point of lifeforce where the soul is fully developed but not declining) This sacrifice is seen as a holy duty, and is spun by the church into being a desirable position, or blessing. Cindral is heavily influenced by propaganda from the city's church officials and a carefully woven narrative.
+
+Life in Cindral is incredibly minimalisitic, as a stark contrast to the lavish,ornate, and colorful city of Rivane.

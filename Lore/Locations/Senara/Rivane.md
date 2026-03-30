@@ -1,3 +1,5 @@
-# Town of Rivane
+# River City of Rivane
 
-Arwyn's town of origin.
+Rivane is one of the largest cities in Senara, with a unique geographical layout. A vast river divides the city into two parts, with a large bridge in the middle. At the center of the bridge is the shrine to the patron saint of the city and its' founding God, Vesrynn. Called the shrine of reflection, this sacred place is said to be so in tune with the river spirits that an aura of healing energy surrounds the premises. Many smaller shrines to individual river spirits dot the city, where citizens can burn incense or leave offerings as a form of prayer. It is believed that the river running through the city houses river spirits, and the herbs grown along the banks are of a higher quality/potency. Rivane is famous for its' high quality apothecaries and herbalists and offers training for such practices at the central cathedral. 
+
+Many people who live in Rivane are obsessed with not only the idea of inner refletion, but the perfecting of one's outer beauty. Complexly woven, colorful textiles are extremely popular and fashion trends shift as rapidly as the changing seasons. It is frequently believed that one's appearence is a direct reflection of their inner beauty and strength of spirit.
