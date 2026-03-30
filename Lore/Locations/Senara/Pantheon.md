@@ -2,7 +2,7 @@
 
 The twelve major cities of Senara are each named after and dedicated to a patron saint, children of the six major deities. These saints are honored in the annual Founding Festival, where representatives from each city are selected as Saints' Chosen to reenact the founding of their respective cities and the nation as a whole.
 
-*Vatican (old capital) — Saint Senara (pope?)*
+*Vatican -- The Captial -- Saint Senara*
 
 
 ## The Six Gods
