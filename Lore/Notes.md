@@ -12,5 +12,3 @@ Define Axiom
 Revise Elias
 Revise Kitick
 
-Add gods to Senara
-Define decenting gods relationship to major demons, (BBEG, Kit)

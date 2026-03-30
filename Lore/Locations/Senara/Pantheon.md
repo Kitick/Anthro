@@ -1,38 +1,49 @@
-# Patron Saints of Senara
+# Pantheon of Senara
 
-## The Twelve Saints and Their Cities
+The twelve major cities of Senara are each named after and dedicated to a patron saint, children of the six major deities. These saints are honored in the annual Founding Festival, where representatives from each city are selected as Saints' Chosen to reenact the founding of their respective cities and the nation as a whole.
 
-The twelve major cities of Senara are each named after and dedicated to a patron saint. These saints are honored in the annual Founding Festival where representatives from each city are selected as Saints' Chosen to reenact the founding of their respective towns and the nation as a whole. 
-
- Vatican (old capital) - saint senara (pope?)
-
- Saintess Aventa 
- Saintess Rivane 
- Saintess Cindral 
- Saintess Valoria 
- Saint Maelis 
- Saint Therion 
- Saint Vesper 
- Saint Karos 
- Saintess Lynara 
- Saint Darius 
- Saintess Aelia 
- Saint Calrus  
-
-God/Godess pairings
-Fire + water = Rivane and Cindral
-
-Sun (day) + Star (evening) = Aelia and Vesper
-
-valor hope + vulnurability despair = Valoria and Maelis
-
-nature wildness + civilization order = Therion and Calrus
-
-Dreams + reality = Lynara and Darius
-
-Past + Future = Karos and Aventa
+*Vatican (old capital) — Saint Senara (pope?)*
 
 
+## The Six Gods
+
+### Moreth — Goddess of the Cycle
+*Life, death, renewal, rebirth*
+
+- Saintess Aelia — Sun / Day → **Dawn**
+- Saint Vesper — Star / Evening → **Dusk**
 
 
+### Vesrynn — Goddess of Identity
+*Truth, perception*
 
+- Saintess Cindral — Fire → **Truth**
+- Saintess Rivane — Water → **Reflection**
+
+
+### Soverin — God of Chaos
+*Free will, good/evil, war/peace — will possess BBEG*
+
+- Saintess Valoria — Valor / Hope → **Valor**
+- Saint Maelis — Vulnerability / Despair → **Despair**
+
+
+### Thaelis — God of Balance
+*Harmony, judgement*
+
+- Saint Therion — Nature / Wildness → **Instinct**
+- Saint Calrus — Civilization / Order → **Order**
+
+
+### Aethos — God of the Mind
+*Thoughts, consciousness — will possess Kit*
+
+- Saintess Lynara — Dreams → **Dream**
+- Saint Darius — Reality → **Reality**
+
+
+### Annael — Goddess of Destiny
+*Fate, time, history*
+
+- Saintess Aventa — Past → **Memory**
+- Saint Karos — Future → **Prophecy**
