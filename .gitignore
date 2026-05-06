@@ -1,7 +1,10 @@
-# Godot
+# System
 .godot/
-Release/
+.vscode/
+.obsidian/
 
 # .NET
 bin/
 obj/
+
+Release/
