@@ -1,7 +1,7 @@
-<Project Sdk="Godot.NET.Sdk/4.6.0">
+<Project Sdk="Godot.NET.Sdk/4.6.2">
 	<PropertyGroup>
 		<TargetFramework>net10.0</TargetFramework>
-		<!--<Optimize>true</Optimize>-->
+		<Optimize Condition="'$(Configuration)' == 'ExportRelease' Or '$(Configuration)' == 'ExportDebug'">true</Optimize>
 
 		<Nullable>enable</Nullable>
 		<EnableDynamicLoading>true</EnableDynamicLoading>
@@ -9,4 +9,7 @@
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="Tests\**" />
+	</ItemGroup>
 </Project>
