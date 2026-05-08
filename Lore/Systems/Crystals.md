@@ -6,9 +6,9 @@
 
 ### Why Crystals Are Different
 
-Most matter interacts with only one polarity of [the field](TheField.md). Crystals are an exception. Their internal lattice, a highly ordered repeating geometric arrangement of atoms, is one of the most electromagnetically ordered structures that occurs naturally, concentrating and holding charge with high efficiency. That same geometric order applies to the spectral polarity without distinction. The lattice accumulates whichever polarity dominates its local environment, treating both as inputs to the same structural process.
+Most matter interacts with only one polarity of [[TheField|the field]]. Crystals are an exception. Their internal lattice, a highly ordered repeating geometric arrangement of atoms, is one of the most electromagnetically ordered structures that occurs naturally, concentrating and holding charge with high efficiency. That same geometric order applies to the spectral polarity without distinction. The lattice accumulates whichever polarity dominates its local environment, treating both as inputs to the same structural process.
 
-This makes crystals the only known naturally occurring structures that respond to both polarities. Every other tool or material in either [tradition](MagicSystem.md) interacts with only one.
+This makes crystals the only known naturally occurring structures that respond to both polarities. Every other tool or material in either [[MagicSystem|tradition]] interacts with only one.
 
 ### Charge as Accumulated Field Energy
 
@@ -44,7 +44,7 @@ A crystal brought into an environment where the field is biased toward the oppos
 
 ### Buffer
 
-The primary function of a crystal is as an external energy reservoir, allowing the practitioner to draw from stored field energy rather than their own soul. Drawing from the [soul core](SoulSystem.md) is possible but degrades its structure over time, accelerating the entropy underlying aging. In field-depleted environments, a crystal is the difference between functional practice and none.
+The primary function of a crystal is as an external energy reservoir, allowing the practitioner to draw from stored field energy rather than their own soul. Drawing from the [[SoulSystem|soul core]] is possible but degrades its structure over time, accelerating the entropy underlying aging. In field-depleted environments, a crystal is the difference between functional practice and none.
 
 ### Amplifier
 

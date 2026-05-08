@@ -6,7 +6,7 @@
 
 The soul system runs entirely on the field's spectral polarity, one of two polar orientations of a single conserved field, the other being the electromagnetic force that governs all physical interaction. Soul cores, field shells, and fragments are all structures of the field's spectral expression. A practitioner engaging with any of these is working with the same underlying field that an elemental caster redirects, approached from the other orientation.
 
-For a full description of the field, its two polarities, and why local balance varies by environment, see [TheField.md](TheField.md).
+For a full description of the field, its two polarities, and why local balance varies by environment, see [[TheField]].
 
 ---
 
@@ -48,9 +48,9 @@ Above the threshold, nucleation becomes reliable during the developmental window
 
 ## 3. Fragments
 
-Fragments are secondary spectral structures that form continuously from experience and accumulate within the soul's field shell over a lifetime. They carry emotional weighting, instinctive tendencies, and memory essences, which are not literal memories but the emotional texture and conceptual residue of lived experience. At typical lifetime scale they give personality its texture without overriding the brain's own processing. At sufficient accumulation across multiple host cycles they can cross thresholds that change what a soul fundamentally is, eventually producing entities known as [demons](Demons.md).
+Fragments are secondary spectral structures that form continuously from experience and accumulate within the soul's field shell over a lifetime. They carry emotional weighting, instinctive tendencies, and memory essences, which are not literal memories but the emotional texture and conceptual residue of lived experience. At typical lifetime scale they give personality its texture without overriding the brain's own processing. At sufficient accumulation across multiple host cycles they can cross thresholds that change what a soul fundamentally is, eventually producing entities known as [[Demons|demons]].
 
-For the full mechanics of fragment formation, binding, detachment, scale, and large-scale accumulation, see [Fragments.md](Fragments.md).
+For the full mechanics of fragment formation, binding, detachment, scale, and large-scale accumulation, see [[Fragments]].
 
 ---
 
@@ -64,11 +64,11 @@ A brain without spectral coupling does not produce experience that goes unwitnes
 
 ### How Fragments Shape the Coupled Process
 
-Because the physical and spectral aspects of the coupled process are always simultaneous, fragments are intrinsic to every event rather than applied to it afterward. The spectral aspect of every neural event arrives already shaped by everything the soul has accumulated; fragments are not a filter on the brain's output, they are the accumulated character of the spectral half of the process itself. For the full explanation, see [Fragments.md](Fragments.md).
+Because the physical and spectral aspects of the coupled process are always simultaneous, fragments are intrinsic to every event rather than applied to it afterward. The spectral aspect of every neural event arrives already shaped by everything the soul has accumulated; fragments are not a filter on the brain's output, they are the accumulated character of the spectral half of the process itself. For the full explanation, see [[Fragments]].
 
 ### Why Memories Belong to the Brain, Not the Soul
 
-Specific memories are encoded in the brain's physical structure, pattern stored in matter. Fragments carry the emotional texture and conceptual residue of experience, not its specific content. When a soul moves to a new host, its accumulated fragment character carries forward; the physical-polarity record of specific events does not. It brings the shape of who it has been without the record of what it has done. For the full treatment, see [Fragments.md](Fragments.md).
+Specific memories are encoded in the brain's physical structure, pattern stored in matter. Fragments carry the emotional texture and conceptual residue of experience, not its specific content. When a soul moves to a new host, its accumulated fragment character carries forward; the physical-polarity record of specific events does not. It brings the shape of who it has been without the record of what it has done. For the full treatment, see [[Fragments]].
 
 ---
 
@@ -104,7 +104,7 @@ If the incoming core is strong enough to displace the resident, the original exp
 
 ### Detached Fragments and Environmental Residue
 
-For what happens to fragments after detachment, including drift, environmental accumulation, inadvertent attraction to weakened shells, and dispersal at core collapse, see [Fragments.md](Fragments.md).
+For what happens to fragments after detachment, including drift, environmental accumulation, inadvertent attraction to weakened shells, and dispersal at core collapse, see [[Fragments]].
 
 ### Volitional Dissolution
 

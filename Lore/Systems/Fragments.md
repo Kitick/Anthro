@@ -1,6 +1,6 @@
 # Fragments
 
-Fragments are secondary energy structures of the field's spectral polarity that form around a [soul core](SoulSystem.md) and are attracted and held within its field shell. They are not the core itself, and no single fragment contains a person. They are more like sediment: accumulated impressions of emotional experience, instinctive response, and identity tendency that settle around the core across a lifetime. Each carries a partial identity bias: emotional weighting, instinctive tendencies, personality shape, and memory essences, which are not literal memories but the emotional texture and conceptual residue of lived experience.
+Fragments are secondary energy structures of the field's spectral polarity that form around a [[SoulSystem|soul core]] and are attracted and held within its field shell. They are not the core itself, and no single fragment contains a person. They are more like sediment: accumulated impressions of emotional experience, instinctive response, and identity tendency that settle around the core across a lifetime. Each carries a partial identity bias: emotional weighting, instinctive tendencies, personality shape, and memory essences, which are not literal memories but the emotional texture and conceptual residue of lived experience.
 
 ---
 
@@ -48,7 +48,7 @@ At the scale a typical person accumulates across one lifetime, fragment influenc
 
 Accumulation does not plateau at a single lifetime. A soul that survives its host's death, rebinds to a new host, and continues accumulating carries its fragment mass across the transition. While each rebinding costs structural energy and sheds some complexity, the fragment mass itself largely persists. Over multiple host cycles, the accumulated mass grows beyond what any single lifetime produces.
 
-At sufficient accumulation, the fragments begin to assert the soul's character reliably regardless of the host's original personality. The soul is no longer a subtle background influence; it becomes a dominant identity, stable across any host it occupies, with fragmentary knowledge reconstructed from dozens of lifetimes. At the extreme end of this trajectory, these souls are no longer ordinary persistent cores. They are [demons](Demons.md).
+At sufficient accumulation, the fragments begin to assert the soul's character reliably regardless of the host's original personality. The soul is no longer a subtle background influence; it becomes a dominant identity, stable across any host it occupies, with fragmentary knowledge reconstructed from dozens of lifetimes. At the extreme end of this trajectory, these souls are no longer ordinary persistent cores. They are [[Demons|demons]].
 
 ### The Demonic Threshold
 

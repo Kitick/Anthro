@@ -6,23 +6,23 @@
 
 Both schools of practice, elemental casting and spectral work, operate on the same underlying field, expressed in two polar orientations. The electromagnetic school works with the field's physical polarity; the spectral school works with its spectral polarity. Neither tradition currently knows this. The field is one conserved quantity, and the local balance between its two orientations determines which school of practice is viable in a given environment, which is why elemental casting is powerful in cities and weak in wilderness, while spectral practice inverts that pattern entirely.
 
-For a full description of the field, its two polarities, and the environmental factors that shift the local balance, see [TheField.md](TheField.md).
+For a full description of the field, its two polarities, and the environmental factors that shift the local balance, see [[TheField]].
 
 ---
 
 ## 2. The Electromagnetic School
 
-Elemental casting draws ambient electromagnetic energy and converts it into specific physical processes; fire, lightning, ice, corrosion, and neural disruption are all emergent consequences of redirecting the field's physical polarity rather than conjuring effects directly. Casters specialize in one of five domains: electrical, magnetic, thermal, chemical, and biological healing (the most demanding chemical specialization). All elemental work shares three constraints: energy comes from the environment or a [crystal](Crystals.md), coherence determines control, and distance multiplies cost.
+Elemental casting draws ambient electromagnetic energy and converts it into specific physical processes; fire, lightning, ice, corrosion, and neural disruption are all emergent consequences of redirecting the field's physical polarity rather than conjuring effects directly. Casters specialize in one of five domains: electrical, magnetic, thermal, chemical, and biological healing (the most demanding chemical specialization). All elemental work shares three constraints: energy comes from the environment or a [[Crystals|crystal]], coherence determines control, and distance multiplies cost.
 
-For full domain mechanics, applications, and risks, see [ElectroMagnetic.md](ElectroMagnetic.md).
+For full domain mechanics, applications, and risks, see [[ElectroMagnetic]].
 
 ---
 
 ## 3. The Spectral School
 
-Spectral practice engages the field's spectral polarity, the substrate underlying soul cores, field shells, [fragments](Fragments.md), identity, and consciousness. Where elemental casting works outward on matter, spectral practice works inward on the structures of experience and identity. Practitioners work with the [soul system](SoulSystem.md): sensing its structures, reinforcing or disrupting its components, guiding its processes at critical transitions. All spectral work shares the same three constraints as elemental casting; working from one's own soul energy is possible but degrades the core over time.
+Spectral practice engages the field's spectral polarity, the substrate underlying soul cores, field shells, [[Fragments|fragments]], identity, and consciousness. Where elemental casting works outward on matter, spectral practice works inward on the structures of experience and identity. Practitioners work with the [[SoulSystem|soul system]]: sensing its structures, reinforcing or disrupting its components, guiding its processes at critical transitions. All spectral work shares the same three constraints as elemental casting; working from one's own soul energy is possible but degrades the core over time.
 
-For full domain mechanics and applications, see [Spectral.md](Spectral.md).
+For full domain mechanics and applications, see [[Spectral]].
 
 ---
 

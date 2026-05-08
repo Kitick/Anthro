@@ -4,11 +4,11 @@
 
 ## Overview
 
-Spectral practice is the deliberate engagement with the spectral pole of the underlying force: the substrate that produces soul cores, sustains field shells, generates and binds [fragments](Fragments.md), and underlies identity and consciousness. Where elemental casting works outward on matter and physical processes, spectral practice works inward on the structures of experience and identity.
+Spectral practice is the deliberate engagement with the spectral pole of the underlying force: the substrate that produces soul cores, sustains field shells, generates and binds [[Fragments|fragments]], and underlies identity and consciousness. Where elemental casting works outward on matter and physical processes, spectral practice works inward on the structures of experience and identity.
 
-Spectral practitioners do not manipulate the physical world directly. They work with the [soul system](SoulSystem.md): sensing its structures, reinforcing or disrupting its components, guiding its processes at critical transitions. Their work is largely invisible to physical examination and produces effects that mainstream civilization, lacking both the spectral force concentration to study these phenomena and the cultural framework to interpret them, consistently misattributes to psychology, mental illness, or coincidence.
+Spectral practitioners do not manipulate the physical world directly. They work with the [[SoulSystem|soul system]]: sensing its structures, reinforcing or disrupting its components, guiding its processes at critical transitions. Their work is largely invisible to physical examination and produces effects that mainstream civilization, lacking both the spectral force concentration to study these phenomena and the cultural framework to interpret them, consistently misattributes to psychology, mental illness, or coincidence.
 
-All spectral work shares the same practical constraints as elemental casting. Energy comes from the environment or a [crystal](Crystals.md), not from the practitioner's own soul. Coherence determines control. Distance multiplies cost. Working with one's own soul energy directly is possible but degrades the soul core over time.
+All spectral work shares the same practical constraints as elemental casting. Energy comes from the environment or a [[Crystals|crystal]], not from the practitioner's own soul. Coherence determines control. Distance multiplies cost. Working with one's own soul energy directly is possible but degrades the soul core over time.
 
 ---
 
@@ -34,7 +34,7 @@ Fragment work is the most accessible domain in the spectral school and the most 
 
 Practical applications include drawing loose environmental fragments into stable structures, dispersing accumulated fragments from a location, reading the emotional history carried in a person's fragment mass, reinforcing weakened fragment binding in someone who has suffered trauma or significant loss, and cleansing corrupted or misaligned fragments that are producing destabilizing influences on the host's experience and behavior.
 
-Fragment work is the domain most likely to have a cultural presence even in communities with only partial understanding of the spectral force. Because fragments are the most abundant and observable spectral phenomenon and their effects on personality and emotional experience are pervasive, almost every culture that interacts with the spectral force at all has developed some form of fragment practice, even if it is framed entirely in spiritual, religious, or psychological terms rather than physical ones.
+Fragment work is the domain most likely to have a cultural presence even in communities with only partial understanding of the spectral force. Because [[Fragments|fragments]] are the most abundant and observable spectral phenomenon and their effects on personality and emotional experience are pervasive, almost every culture that interacts with the spectral force at all has developed some form of fragment practice, even if it is framed entirely in spiritual, religious, or psychological terms rather than physical ones.
 
 ### Shell Work
 
@@ -56,6 +56,6 @@ This domain is the most saturated with cultural interpretation of any in the spe
 
 Core perception is distinct from general spectral perception in that it concerns the soul core itself rather than the structures surrounding it. Where general perception works with the field shell and fragment mass, both of which are large enough to sense with trained but not exceptional sensitivity, core perception requires the ability to detect and read a structure that is infinitesimally small and shielded by the shell and fragment mass around it.
 
-Practical applications include assessing the structural integrity of a soul core, sensing damage or unusual accumulation, evaluating whether a core is at risk of imminent collapse, and detecting the presence of an unusually dense or stable disembodied core in an environment. This last application is the primary tool used by practitioners who specialize in tracking [demonic entities](Demons.md).
+Practical applications include assessing the structural integrity of a soul core, sensing damage or unusual accumulation, evaluating whether a core is at risk of imminent collapse, and detecting the presence of an unusually dense or stable disembodied core in an environment. This last application is the primary tool used by practitioners who specialize in tracking [[Demons|demonic entities]].
 
 Core perception is the rarest spectral specialization and the one least likely to have developed independently across multiple cultural traditions. The sensitivity required to practice it reliably takes years to develop even in spectrally rich environments, and most practitioners who attempt it plateau at a level of sensitivity sufficient for shell and fragment assessment but insufficient for reliable core reading. The few who develop genuine core perception are exceptional in a way that exceeds ordinary domain mastery.

@@ -14,7 +14,7 @@ These are not two separate forces coexisting in the same space. They are two exp
 
 The physical polarity is the electromagnetic force in all its familiar expressions: charge separation, field geometry, molecular bonds, heat flow, and the electrochemical signalling of living nervous systems. Every physical interaction at every scale, from the subatomic to the macroscopic, is an expression of the field in its physical orientation.
 
-This polarity is what [elemental casters](MagicSystem.md) work with. When a caster moves heat, builds a charge imbalance, or catalyses a molecular reaction, they are redirecting the field's physical-polarity expression. The force they manipulate is real, measurable, and consistent. It requires no belief in the spectral polarity to function, and in environments where the spectral fraction is negligible, the physical polarity is entirely sufficient to describe everything happening.
+This polarity is what [[MagicSystem|elemental casters]] work with. When a caster moves heat, builds a charge imbalance, or catalyses a molecular reaction, they are redirecting the field's physical-polarity expression. The force they manipulate is real, measurable, and consistent. It requires no belief in the spectral polarity to function, and in environments where the spectral fraction is negligible, the physical polarity is entirely sufficient to describe everything happening.
 
 Any sustained source of electromagnetic activity, including machinery, infrastructure, and biological nervous systems, drives the local field balance toward physical expression. The field is always responding to what is present in a given location. A city full of EM output is, in field terms, a place that has been continuously pushed toward its physical orientation.
 
@@ -22,7 +22,7 @@ Any sustained source of electromagnetic activity, including machinery, infrastru
 
 ## 3. The Spectral Polarity
 
-The spectral polarity is the orientation of the same field that underlies consciousness, identity, and the structures of the [soul system](SoulSystem.md). Soul cores, field shells, and [fragments](Fragments.md) are all structures of the field's spectral polarity. They are not supernatural additions to physical reality. They are physical reality, oriented differently.
+The spectral polarity is the orientation of the same field that underlies consciousness, identity, and the structures of the [[SoulSystem|soul system]]. Soul cores, field shells, and [[Fragments|fragments]] are all structures of the field's spectral polarity. They are not supernatural additions to physical reality. They are physical reality, oriented differently.
 
 This polarity is what spectral practitioners work with. When a practitioner senses a soul core, reinforces a field shell, or disperses fragments from a location, they are engaging with the field in its spectral orientation, the same underlying field an elemental caster redirects approached from the other end.
 

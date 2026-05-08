@@ -1,16 +1,16 @@
 # Calendar Systems
 
-Two distinct calendar systems exist in this world, reflecting the broader philosophical divide between Senara and Praxis.
+Two distinct calendar systems exist in this world, reflecting the broader philosophical divide between [[Senara]] and [[Praxis]].
 
 ---
 
-## Senara — The Natural Calendar
+## [[Senara]] — The Natural Calendar
 
 Senara's calendar is observational. Time is not measured by fixed counts or instruments, but by what can be seen and felt. The world tells you when something has changed; you simply notice.
 
 ### Seasons
 
-Each season has a natural trigger — an observable event that signals the season is imminent. These triggers are signs, not declarations. The Aelia blooming does not mean spring has begun; it means spring is coming. The official start of each season is declared by the church in Vatican, who read the natural signs and make a formal announcement at the new moon preceding the change. Seasons always begin on a new moon.
+Each season has a natural trigger — an observable event that signals the season is imminent. These triggers are signs, not declarations. The Aelia blooming does not mean spring has begun; it means spring is coming. The official start of each season is declared by the [[Church]] in Vatican, who read the natural signs and make a formal announcement at the new moon preceding the change. Seasons always begin on a new moon.
 
 | Season | Trigger |
 |--------|---------|
@@ -99,7 +99,7 @@ A Praxian historian attempting to convert Senaran history into numbered years wi
 
 ---
 
-## Praxis — The Revolutionary Calendar
+## [[Praxis]] — The Revolutionary Calendar
 
 Following the civil war and the establishment of the new government, Praxis formalized a standardized calendar as part of its modernization effort. Consistency, accountability, and record-keeping were founding principles of the new state.
 
