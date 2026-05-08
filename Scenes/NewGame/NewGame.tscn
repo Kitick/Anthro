@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bhsex3ichr4jv"]
 
-[ext_resource type="Script" uid="uid://hvha6qdta7e3" path="res://NewGame/NewGame.cs" id="1_wyeom"]
+[ext_resource type="Script" uid="uid://hvha6qdta7e3" path="res://Scenes/NewGame/NewGame.cs" id="1_wyeom"]
 
 [node name="NewGame" type="Control" unique_id=377096661 node_paths=PackedStringArray("FileName", "StartButton", "BackButton")]
 layout_mode = 3
