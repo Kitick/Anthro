@@ -1,16 +1,131 @@
 root = true
 
 [*]
-indent_size = 4
+
+# Indentation
 indent_style = tab
+indent_size = 4
 tab_width = 4
 
+# New line
 end_of_line = lf
 insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Encoding
+charset = utf-8
 
 [*.cs]
-csharp_space_after_cast = true
-csharp_new_line_before_open_brace = none
+
+# Organize usings
+csharp_using_directive_placement = inside_namespace
+dotnet_sort_system_directives_first = true
+
+# This. preferences
+
+# Language keywords vs BCL types
+
+# Parentheses preferences
+
+# Modifier preferences
+
+# Expression-level preferences
+dotnet_style_namespace_match_folder = false
+dotnet_style_prefer_conditional_expression_over_return = false
+
+# Field preferences
+
+# Var preferences
+csharp_style_var_for_built_in_types = false
+csharp_style_var_when_type_is_apparent = false
+csharp_style_var_elsewhere = false
+
+# Expression-bodied members
+csharp_style_expression_bodied_constructors = when_on_single_line : suggestion
+csharp_style_expression_bodied_methods = when_on_single_line : suggestion
+csharp_style_expression_bodied_operators = when_on_single_line : suggestion
+csharp_style_expression_bodied_properties = when_on_single_line : suggestion
+csharp_style_expression_bodied_indexers = when_on_single_line : suggestion
+csharp_style_expression_bodied_accessors = when_on_single_line : suggestion
+csharp_style_expression_bodied_local_functions = when_on_single_line : suggestion
+
+# Pattern matching
+
+# Null-checking preferences
+
+# Modifier preferences
+
+# Code-block preferences
+csharp_prefer_braces = when_multiline
+csharp_style_namespace_declarations = file_scoped
 csharp_style_prefer_primary_constructors = false
+csharp_style_prefer_top_level_statements = false
+
+# Expression-level preferences
+csharp_style_unused_value_expression_statement_preference = discard_variable : none
+csharp_style_unused_value_assignment_preference = discard_variable : none
+
+# New line preferences
+csharp_new_line_before_else = false
+csharp_new_line_before_open_brace = none
+
+# Indentation preferences
+
+# Space preferences
+csharp_space_after_cast = true
 csharp_space_after_keywords_in_control_flow_statements = false
-csharp_style_implicit_object_creation_when_type_is_apparent	= false
+
+# Wrapping preferences
+
+# Modifier order
+
+# Naming rules
+dotnet_naming_rule.interfaces_begin_with_i.symbols = interfaces_begin_with_i_symbols
+dotnet_naming_rule.interfaces_begin_with_i.style = interfaces_begin_with_i_style
+dotnet_naming_rule.interfaces_begin_with_i.severity = warning
+dotnet_naming_symbols.interfaces_begin_with_i_symbols.applicable_kinds = interface
+dotnet_naming_symbols.interfaces_begin_with_i_symbols.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_style.interfaces_begin_with_i_style.capitalization = pascal_case
+dotnet_naming_style.interfaces_begin_with_i_style.required_prefix = I
+dotnet_naming_rule.types_pascal_case.symbols = types_pascal_case_symbols
+dotnet_naming_rule.types_pascal_case.style = types_pascal_case_style
+dotnet_naming_rule.types_pascal_case.severity = warning
+dotnet_naming_symbols.types_pascal_case_symbols.applicable_kinds = class, struct, interface, enum, delegate
+dotnet_naming_symbols.types_pascal_case_symbols.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_style.types_pascal_case_style.capitalization = pascal_case
+dotnet_naming_rule.members_pascal_case.symbols = members_pascal_case_symbols
+dotnet_naming_rule.members_pascal_case.style = members_pascal_case_style
+dotnet_naming_rule.members_pascal_case.severity = warning
+dotnet_naming_symbols.members_pascal_case_symbols.applicable_kinds = property, event, method, field
+dotnet_naming_symbols.members_pascal_case_symbols.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_style.members_pascal_case_style.capitalization = pascal_case
+dotnet_naming_rule.locals_camel_case.symbols = locals_camel_case_symbols
+dotnet_naming_rule.locals_camel_case.style = locals_camel_case_style
+dotnet_naming_rule.locals_camel_case.severity = suggestion
+dotnet_naming_symbols.locals_camel_case_symbols.applicable_kinds = local, parameter
+dotnet_naming_symbols.locals_camel_case_symbols.applicable_accessibilities = local
+dotnet_naming_style.locals_camel_case_style.capitalization = camel_case
+
+# Diagnostics
+dotnet_analyzer_diagnostic.category-Style.severity = warning
+
+# Unused member / variable
+dotnet_diagnostic.IDE0051.severity = suggestion
+dotnet_diagnostic.IDE0052.severity = suggestion
+
+# Switch statement populate
+dotnet_diagnostic.IDE0010.severity = none
+dotnet_diagnostic.IDE0072.severity = none
+
+[*.{fs,fsx}]
+
+# Auxiliary
+indent_style = space
+
+# Maximum width constraints
+fsharp_multiline_bracket_style = stroustrup
+
+# G-Research style
+
+# Other
+fsharp_keep_max_number_of_blank_lines = 2

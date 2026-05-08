@@ -1,6 +1,7 @@
 # System
-.godot/
 .vscode/
+.godot/
+.claude/
 .obsidian/
 
 # .NET
