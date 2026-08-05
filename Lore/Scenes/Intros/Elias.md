@@ -239,11 +239,35 @@ flowchart TD
     LordCryptic --> LordQuestion
 ```
 
-**LordOffice.** All above scenes filter to a conversation in the Lord's office.
-- **If Elias is alone:** the lord openly tells him about Cindral's cultish practices and questionable culture.
-- **If Elias is with the Cindral town guards:** the lord is more cryptic in telling him about the cult, but still tries to help.
+**In the Lord's Office.** 
 
-**LordQuestion.** Dialogue options include questioning the lord.
+**Got here by being arrested*
+Elias is brought before lord Voss to be interrogated. The lord wishes to know why Elias was sneaking around his men's camp, who sent him there, who he is, etc.
+
+Option 1:
+Tell the truth
+
+Lord Voss chides Elias for being foolish. Tells him that he is being deceived by Cindral, and that they aren't to be trusted.
+
+Dialogue options:
+-Ask Voss why he's doing this?
+-Ask Voss to elaborate on why Cindral isn't to be trusted?
+-
+
+Option 2:
+Lie (deception)
+
+Elias tells lord Voss:
+
+A: He is a wandering mercenary and heard about the bandit gig. He was looking for work
+
+B: He was passing through, saw the bandit camp, tried to steal from them, and got caught
+
+C: Just a traveler lost in the woods
+
+Option 3:
+Refuse to tell him anything
+
 
 ---
 
