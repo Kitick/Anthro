@@ -61,7 +61,7 @@ It's a decent enough place to do business, from what we could tell. There's not 
 
  He continues walking along the road until he reaches the village.
 
-Upon arrival, Elias observes a busy local market, with a commodity/bartering based trading system. He walks past a blacksmith's stall, and stops to inspect the ware. The smith tells him that it's a shame that the sword was damaged so heavily, as it is of very high quality and was very intricately crafted. He doesn't have the tools or materials on hand to do such specialized work. He does, however, encourage Elias to browse his wares and select a new sword. He picks out a shortsword, but keeps his old damaged one in hopes of eventually getting it fixed.
+Upon arrival, Elias observes a busy local market, with a commodity/bartering based trading system. He walks past a blacksmith's stall, and stops to inspect the wares. The smith tells him that it's a shame that the sword was damaged so heavily, as it is of very high quality and was very intricately crafted. He doesn't have the tools or materials on hand to do such specialized work. He does, however, encourage Elias to browse his wares and select a new sword. He picks out a shortsword, but keeps his old damaged one in hopes of eventually getting it fixed.
 
 As Elias searches for the mayor's office, a strange man stands in the road. He has a checklist, a stack of books, and several important looking papers balanced precariously in his arms. He looks a bit tired/overworked. Elias thinks this person might be able to point him in the right direction, and asks if he knows where the mayor's office is located. The man replies that he might be who Elias is looking for, as he is the mayor's clerk, Lorean. He asks Elias what he can help with, to which he inquires about the need for mercenary work.
 
@@ -77,10 +77,26 @@ He is pointed to the local inn, where he is able to have a meal and rest for the
 
 
 ## Outcomes & Consequences
-
+Scenario 1
 - You were able to find the bandit camp. You have the group of soldiers with you. An attack will be easier, but an infiltration will be harder with more people.
+Option 1:
+Have the gaurds wait outside the camp, with a pre-established signal to move in if needed. Elias will attempt to infiltrate the camp and seek out the bandit leader.
+Option 2:
+Fuk em up. Find leader agressively.
+
+Scenario 2
 - You were able to find the bandit camp. You are already at the camp, alone. Infiltration will be much easier alone, but a frontal assault will be much harder.
+Option 1:
+Sneak around the camp and listen in until you find the bandit leader.
+Option 2: 
+Return to Cindral to alert the gaurd.
+
+Scenario 3
 - You were able to find the bandit camp. The bandits are on alert, due to a member of their group being captured. Proceeding will be much more difficult.
+Option 1:
+Attempt to impersonate the bandit that you captured by wearing his uniform and infiltrating the camp
+Option 2:
+Assasin's creed stealth mission
 
 
 
