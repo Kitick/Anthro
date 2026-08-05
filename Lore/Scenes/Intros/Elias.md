@@ -1,189 +1,280 @@
 # Elias — Merchants on the Road
 
-## Abstract
+## Full Scene Map
 
-Elias is traveling along a main road taking inventory of his supplies. On a recent job, his sword was damaged and he is seeking to get it repaired or replaced, but he isn't near any major cities. When he runs into a group of roving merchants, they inform him that the local village of Cindral is looking for a mercenary, and tell him to inquire with the mayor's clerk for more information about the job.
+The small diagrams below are the only place each section's internal structure is defined — one source of truth. This map shows the high-level shape of the whole scene by treating each *section* as a single node, linked the way the sections actually connect. No node or edge is duplicated from the diagrams below; scroll to a section's own diagram for its internal detail.
 
-## Scene Metadata
+```mermaid
+flowchart TD
+    Merchants[Traveling Merchants] --> Market[Cindral Market]
+    Market --> Lorean[Lorean, Mayor's Clerk]
+    Lorean --> Rest[Rest and Search]
 
-- **Location:** Main road; Cindral (village)
-- **Type:** Intro / Encounter
-- **Difficulty:**
-- **Tutorial:** yes (player choices tutorial present)
-- **Involved characters:** Elias, Lorean (mayor's clerk), merchants, lord
+    Rest -->|Deception| Scenario1[Scenario 1: Guards present]
+    Rest -->|Stealth| Scenario2[Scenario 2: Elias alone]
+    Rest -->|Trap| Scenario3[Scenario 3: Bandits alerted]
 
-## Goals / Player Objectives
+    Scenario1 -->|Whistle / assault| Combat1([Combat 1])
+    Scenario1 -->|Success / submit| LordOffice([Lord's Office])
+    Combat1 --> LordOffice
 
-- Find work or a job in Cindral
-- Repair or replace the damaged sword
-- Investigate reports of bandits and protect the village
+    Scenario2 -->|Success / submit| LordOffice
+    Scenario2 -->|Fight| Combat1
 
-## Setup
+    Scenario3 -->|Fight| Combat3([Combat 3])
+    Scenario3 -->|Submit / not caught| LordOffice
+    Combat3 --> LordOffice
 
-Elias is traveling along a main road taking inventory of his supplies. On a recent job, his sword was damaged and he is seeking to get it repaired or replaced, but he isn't near any major cities. When he runs into a group of roving merchants, they inform him that the local village of Cindral is looking for a mercenary, and tell him to inquire with the mayor's clerk for more information about the job.
-
-## Flow / Beats
-
-1. Elias encounters a small group of traveling merchants along the main road. He may ask them several questions in any order.
-
----
-## Player Dialogue Options
-
-### 1. Ask About Cindral
-**Elias:**
-> What could you tell me about Cindral?
-
-**Merchant Response:**
-> It’s a decent enough place to do business, from what we could tell. There’s not much in the way of competition.
+    LordOffice --> Resolution[Resolution]
+```
 
 ---
 
-### 2. Ask About the Job
-**Elias:**
-> What could you tell me about this job?
+## Encounter: Traveling Merchants
 
-**Merchant Response:**
-> Not much in the way of details. The scrawny punk who asked us was all hush about the whole thing.
+```mermaid
+flowchart TD
+    Start([Main road]) --> M0[Start of interaction]
+
+    M0 -->|Cindral| M1_Q[Ask: Cindral]
+    M1_Q --> M1_A[Decent for business]
+    M1_A --> M0
+
+    M0 -->|The job| M2_Q[Ask: the job]
+    M2_Q --> M2_A[Clerk was hush-hush]
+    M2_A --> M0
+
+    M0 -->|Blacksmith| M3_Q[Ask: blacksmith]
+    M3_Q --> M3_A[Young, skilled smith]
+    M3_A --> M0
+
+    M0 -->|Done| M4[Walks to Cindral]
+```
+
+**Start.** Elias is traveling along a main road taking inventory of his supplies. On a recent job his sword was damaged, and he's seeking to repair or replace it, but he isn't near any major cities.
+
+**M0.** Elias may ask the merchants about Cindral, the job, or the blacksmith, in any order, before continuing on. Each answer loops back to this state.
+
+**M1_Q — Ask About Cindral.** Elias: "What could you tell me about Cindral?"
+**M1_A.** Merchant: "It's a decent enough place to do business, from what we could tell. There's not much in the way of competition."
+
+**M2_Q — Ask About the Job.** Elias: "What could you tell me about this job?"
+**M2_A.** Merchant: "Not much in the way of details. The scrawny punk who asked us was all hush about the whole thing."
+
+**M3_Q — Ask About the Blacksmith.** Elias: "Does Cindral have a decent blacksmith?"
+**M3_A.** Merchant: "Yes, we met him while we were in town. Younger man, but skilled enough to get the job done."
+
+**M4.** He continues walking along the road until he reaches the village.
 
 ---
 
-### 3. Ask About the Blacksmith
-**Elias:**
-> Does Cindral have a decent blacksmith?
+## Encounter: Cindral Market
 
-**Merchant Response:**
-> Yes, we met him while we were in town. Younger man, but skilled enough to get the job done.
+```mermaid
+flowchart TD
+    MK1[Browses market] --> MK2[Sword too damaged]
+    MK2 --> MK3[Offers his wares]
+    MK3 --> MK4[Buys shortsword]
+```
 
+**MK1.** Upon arrival, Elias observes a busy local market, with a commodity/bartering based trading system. He walks past a blacksmith's stall, and stops to inspect the wares.
 
-Response to dialogue 1:
-It's a decent enough place to do business, from what we could tell. There's not much in the way of competition.
+**MK2.** The smith tells him that it's a shame that the sword was damaged so heavily, as it is of very high quality and was very intricately crafted.
 
+**MK3.** He doesn't have the tools or materials on hand to do such specialized work. He does, however, encourage Elias to browse his wares and select a new sword.
 
- He continues walking along the road until he reaches the village.
+**MK4.** He picks out a shortsword, but keeps his old damaged one in hopes of eventually getting it fixed.
 
-Upon arrival, Elias observes a busy local market, with a commodity/bartering based trading system. He walks past a blacksmith's stall, and stops to inspect the wares. The smith tells him that it's a shame that the sword was damaged so heavily, as it is of very high quality and was very intricately crafted. He doesn't have the tools or materials on hand to do such specialized work. He does, however, encourage Elias to browse his wares and select a new sword. He picks out a shortsword, but keeps his old damaged one in hopes of eventually getting it fixed.
+---
 
-As Elias searches for the mayor's office, a strange man stands in the road. He has a checklist, a stack of books, and several important looking papers balanced precariously in his arms. He looks a bit tired/overworked. Elias thinks this person might be able to point him in the right direction, and asks if he knows where the mayor's office is located. The man replies that he might be who Elias is looking for, as he is the mayor's clerk, Lorean. He asks Elias what he can help with, to which he inquires about the need for mercenary work.
+## Encounter: Lorean, the Mayor's Clerk
 
-Lorean tells him about the recent issue with bandits robbing the villagers, as well as the merchants who pass through along the nearby road. Elias is tasked with aiding the village guards in tracking down the bandit's camp, and eliminating the threat.
+```mermaid
+flowchart TD
+    L1[Meets clerk] --> L2[Asks directions]
+    L2 --> L3[Clerk: Lorean]
+    L3 --> L4[Asks about work]
+    L4 --> L5[Explains bandits]
+    L5 --> L6[Tasked: find camp]
+```
 
-He is pointed to the local inn, where he is able to have a meal and rest for the night. Over the next few weeks, he works with the guards in locating the bandit camp. After a few weeks with little to no progress, he…
+**L1.** As Elias searches for the mayor's office, a strange man stands in the road. He has a checklist, a stack of books, and several important looking papers balanced precariously in his arms. He looks a bit tired/overworked.
 
-## Choices / Tactics (tutorial)
+**L2.** Elias thinks this person might be able to point him in the right direction, and asks if he knows where the mayor's office is located.
 
+**L3.** **Lorean:** "I might be who you're looking for, as I am the mayor's clerk, Lorean." He asks Elias what he can help with.
+
+**L4.** Elias inquires about the need for mercenary work.
+
+**L5.** Lorean tells him about the recent issue with bandits robbing the villagers, as well as the merchants who pass through along the nearby road.
+
+**L6.** Elias is tasked with aiding the village guards in tracking down the bandit's camp, and eliminating the threat.
+
+---
+
+## Rest and Search
+
+```mermaid
+flowchart TD
+    Inn[Rests at inn] --> Weeks[Weeks, no progress]
+    Weeks -->|Deception| Decep[Ambush wagon]
+    Weeks -->|Stealth| Stealth[Follow bandits]
+    Weeks -->|Trap| Trap[Trap + torture]
+```
+
+**Inn.** He is pointed to the local inn, where he is able to have a meal and rest for the night.
+
+**Weeks.** Over the next few weeks, he works with the guards in locating the bandit camp. After a few weeks with little to no progress, he…
 - **Deception / active:** Disguised as a small group of merchants, Elias and the guards camp in the woods by the main road, with a wagon of goods from the village left relatively unattended. As expected, the bandits strike in the middle of the night, and Elias must fight off the attack.
-- **Stealth / passive:** Focus on the village, find out how the bandits are getting in, watch them leave and follow them back to their camp
-- **Trap / Aggressive:** Find out how they're getting into the village, set a bear trap, and torture information out of the caught bandit
+- **Stealth / passive:** Focus on the village, find out how the bandits are getting in, watch them leave and follow them back to their camp.
+- **Trap / Aggressive:** Find out how they're getting into the village, set a bear trap, and torture information out of the caught bandit.
 
+---
 
-## Outcomes & Consequences
-Scenario 1
-- You were able to find the bandit camp. You have the group of soldiers with you. An attack will be easier, but an infiltration will be harder with more people.
-Option A:
-Have the gaurds wait outside the camp, with a pre-established signal to move in if needed. Elias will attempt to infiltrate the camp and seek out the bandit leader.
-Option B:
-Fuk em up. Find leader agressively.
+## Scenario 1: Camp Found, Guards Present
 
-Option A picked:
-Mission objective:
-Obtain information on the bandits and their leader (stealth)
+```mermaid
+flowchart TD
+    Scen1[Guards present] -->|A| S1A[Signal + infiltrate]
+    Scen1 -->|B| S1B[Aggressive assault]
 
-If Sucessful:
-Location of Lord's castle found
+    S1A --> S1A_Obj[Gather intel]
+    S1A_Obj -->|Success| S1A_Success[Castle location found]
+    S1A_Obj -->|Caught, whistle| Combat1([Combat 1])
+    S1A_Obj -->|Caught, submit| S1A_Submit[Brought to lord]
 
-If caught:
-Option A:
-Whistle to call soldiers (combat begins)
+    S1B --> Combat1
+```
 
-Option B:
-Submit to be brought to the bandit's leader
--Brought to the lord
+**Scen1.** You were able to find the bandit camp. You have the group of soldiers with you. An attack will be easier, but an infiltration will be harder with more people.
+- **Option A:** Have the guards wait outside the camp, with a pre-established signal to move in if needed. Elias will attempt to infiltrate the camp and seek out the bandit leader.
+- **Option B:** Fight aggressively — find the leader by force.
 
-Option B picked:
-Combat begins
+**S1A_Obj.** Mission objective: obtain information on the bandits and their leader (stealth).
+- **Success:** Location of the lord's castle found.
+- **Caught, whistle:** Whistle to call soldiers — combat begins.
+- **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord.
 
-### Combat Begins
-If at least 1 bandit survives
--Obtain lord's location from survivor (or survivors)
+**S1B.** Combat begins.
 
-If all bandits dead
--Explore the camp for clues
-Mission objective: Find the lord's location (letter)
+---
 
+## Combat Resolution — Scenario 1
 
-Scenario 2
-- You were able to find the bandit camp. You are already at the camp, alone. Infiltration will be much easier alone, but a frontal assault will be much harder.
-Option A:
-Sneak around the camp and listen in until you find the bandit leader.
-Option B: 
-Return to Cindral to alert the gaurd.
+```mermaid
+flowchart TD
+    Combat1([Combat 1]) -->|Survivor| C1_Survivor[Info from survivor]
+    Combat1 -->|All dead| C1_Explore[Letter in camp]
+```
 
-Option A picked:
-Mission objective:
-Obtain information on the bandits and their leader (stealth)
+**Combat1:**
+- **If at least 1 bandit survives:** Obtain the lord's location from the survivor(s).
+- **If all bandits dead:** Explore the camp for clues. Mission objective: find the lord's location (letter).
 
-If Sucessful:
-Location of Lord's castle found
+---
 
-If caught:
-option A:
-Submit to be brought to the bandit's leader
--Brought to the lord
+## Scenario 2: Camp Found, Elias Alone
 
-Option B:
-Fight your way out
-combat begins
+```mermaid
+flowchart TD
+    Scen2[Elias alone] -->|A| S2A[Sneak + listen]
+    Scen2 -->|B| S2B[Return, alert guard]
 
-Scenario 3
-- You were able to find the bandit camp. The bandits are on alert, due to a member of their group being captured. Proceeding will be much more difficult.
-Option A:
-Attempt to impersonate the bandit that you captured by wearing his uniform and infiltrating the camp
-Option B:
-Assasin's creed stealth mission
+    S2A --> S2A_Obj[Gather intel]
+    S2A_Obj -->|Success| S2A_Success[Castle location found]
+    S2A_Obj -->|Caught, submit| S2A_Submit[Brought to lord]
+    S2A_Obj -->|Caught, fight| Combat1([Combat 1])
+```
 
-If option A picked:
-You are caught by the bandits as they don't recognize you
+**Scen2.** You were able to find the bandit camp. You are already at the camp, alone. Infiltration will be much easier alone, but a frontal assault will be much harder.
+- **Option A:** Sneak around the camp and listen in until you find the bandit leader.
+- **Option B:** Return to Cindral to alert the guard.
 
-option A:
-Submit to be brought to the bandit's leader
--Brought to the lord
+**S2A_Obj.** Mission objective: obtain information on the bandits and their leader (stealth).
+- **Success:** Location of the lord's castle found.
+- **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord.
+- **Caught, fight:** Fight your way out. Resolves using the same survivor/explore logic as Combat1 (Scenario 1).
 
-Option B:
-Fight your way out
-combat begins
+---
 
-If option B picked:
+## Scenario 3: Camp Found, Bandits Alerted
 
-If caught:
-option A:
-Submit to be brought to the bandit's leader (not available if any bandits killed)
--Brought to the lord
+```mermaid
+flowchart TD
+    Scen3[Bandits alerted] -->|A| S3A[Impersonate captive]
+    Scen3 -->|B| S3B[Full stealth]
 
-Option B:
-Fight your way out
-combat begins
+    S3A --> S3A_Caught[Not recognized]
+    S3A_Caught -->|Submit| S3A_Submit[Brought to lord]
+    S3A_Caught -->|Fight| Combat3([Combat 3])
 
-If not caught:
-If at least 1 bandit survives
--Obtain lord's location from survivor (or survivors)
+    S3B -->|Caught, submit| S3B_Submit[Brought to lord*]
+    S3B -->|Caught, fight| Combat3
+    S3B -->|Not caught, survivor| S3B_Survivor[Info from survivor]
+    S3B -->|Not caught, all dead| S3B_Explore[Letter in camp]
+```
 
-If all bandits dead
--Explore the camp for clues
-Mission objective: Find the lord's location (letter)
+**Scen3.** You were able to find the bandit camp. The bandits are on alert, due to a member of their group being captured. Proceeding will be much more difficult.
+- **Option A:** Attempt to impersonate the bandit that you captured by wearing his uniform and infiltrating the camp.
+- **Option B:** Full stealth mission — evade detection entirely.
 
-All above scenes filter to talk in Lord's office
+**S3A_Caught.** You are caught by the bandits, as they don't recognize you.
+- **Submit:** Submit to be brought to the bandit's leader, then to the lord.
+- **Fight:** Fight your way out — combat begins.
 
-- If you are alone, the lord openly tells you about Cindral's cultish practices and questionable culture.
-- If you are with the Cindral town guards, the lord is more cryptic in telling you about the cult, but still tries to help you.
+**S3B — Full Stealth:**
+- **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord. *Not available if any bandits were killed.*
+- **Caught, fight:** Fight your way out — combat begins.
+- **Not caught, survivor:** At least 1 bandit survives — obtain the lord's location from the survivor(s).
+- **Not caught, all dead:** Explore the camp for clues. Mission objective: find the lord's location (letter).
 
-Dialogue options include questioning the lord.
+---
 
+## Combat Resolution — Scenario 3
 
+```mermaid
+flowchart TD
+    Combat3([Combat 3]) --> Combat1([Combat 1])
+```
 
-He realizes that everything the lord said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice. Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the lord's village, now wanted by Cindral's people.
+**Combat3.** Resolves using the same survivor/explore logic as Combat1 (Scenario 1).
 
+---
 
-## Rewards / Follow-ups
+## Lord's Office
 
-- Reputation changes with Cindral and the lord's village
-- Potential ongoing plot thread: pursued by Cindral
+```mermaid
+flowchart TD
+    LordOffice([Lord's Office]) -->|Alone| LordOpen[Reveals cult]
+    LordOffice -->|Guards| LordCryptic[Cryptic, still helps]
+    LordOpen --> LordQuestion([Question Lord])
+    LordCryptic --> LordQuestion
+```
+
+**LordOffice.** All above scenes filter to a conversation in the Lord's office.
+- **If Elias is alone:** the lord openly tells him about Cindral's cultish practices and questionable culture.
+- **If Elias is with the Cindral town guards:** the lord is more cryptic in telling him about the cult, but still tries to help.
+
+**LordQuestion.** Dialogue options include questioning the lord.
+
+---
+
+## Resolution
+
+```mermaid
+flowchart TD
+    LordQuestion([Question Lord]) --> Reveal[Ritual is sacrifice]
+    Reveal --> Escape[Escape, now wanted]
+```
+
+**Reveal.** He realizes that everything the lord said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice.
+
+**Escape.** Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the lord's village, now wanted by Cindral's people.
+
+## Notes on this approach
+
+- The Full Scene Map at the top treats each section as a single node — a high-level view of how sections connect, not a redraw of their internal branching. Internal detail (options, outcomes, individual nodes) exists in exactly one place: that section's own diagram below. Nothing is duplicated, so there's nothing to keep in sync.
+- Every small diagram below is for reading section by section — easy to render, easy to scan, no giant unreadable graph while you're focused on one beat.
+- Node and edge labels are kept to a few words each, so diagrams stay compact even as branching deepens — full meaning lives in the prose below, not in the label.
+- Prose sits immediately below its diagram, in the same file — no second document, no jumping around.
+- Cost: the map can't show fine-grained cross-section links (e.g. "the Whistle response from Scenario 1 and the Fight response from Scenario 2 both lead to Combat1, but Submit does not") without either cluttering the section-level edges or reintroducing some internal node names — edge labels there are a compressed summary of several underlying paths, not a literal 1:1 rendering of every route.
