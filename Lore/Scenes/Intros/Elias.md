@@ -79,37 +79,106 @@ He is pointed to the local inn, where he is able to have a meal and rest for the
 ## Outcomes & Consequences
 Scenario 1
 - You were able to find the bandit camp. You have the group of soldiers with you. An attack will be easier, but an infiltration will be harder with more people.
-Option 1:
+Option A:
 Have the gaurds wait outside the camp, with a pre-established signal to move in if needed. Elias will attempt to infiltrate the camp and seek out the bandit leader.
-Option 2:
+Option B:
 Fuk em up. Find leader agressively.
+
+Option A picked:
+Mission objective:
+Obtain information on the bandits and their leader (stealth)
+
+If Sucessful:
+Location of Lord's castle found
+
+If caught:
+Option A:
+Whistle to call soldiers (combat begins)
+
+Option B:
+Submit to be brought to the bandit's leader
+-Brought to the lord
+
+Option B picked:
+Combat begins
+
+### Combat Begins
+If at least 1 bandit survives
+-Obtain lord's location from survivor (or survivors)
+
+If all bandits dead
+-Explore the camp for clues
+Mission objective: Find the lord's location (letter)
+
 
 Scenario 2
 - You were able to find the bandit camp. You are already at the camp, alone. Infiltration will be much easier alone, but a frontal assault will be much harder.
-Option 1:
+Option A:
 Sneak around the camp and listen in until you find the bandit leader.
-Option 2: 
+Option B: 
 Return to Cindral to alert the gaurd.
+
+Option A picked:
+Mission objective:
+Obtain information on the bandits and their leader (stealth)
+
+If Sucessful:
+Location of Lord's castle found
+
+If caught:
+option A:
+Submit to be brought to the bandit's leader
+-Brought to the lord
+
+Option B:
+Fight your way out
+combat begins
 
 Scenario 3
 - You were able to find the bandit camp. The bandits are on alert, due to a member of their group being captured. Proceeding will be much more difficult.
-Option 1:
+Option A:
 Attempt to impersonate the bandit that you captured by wearing his uniform and infiltrating the camp
-Option 2:
+Option B:
 Assasin's creed stealth mission
 
+If option A picked:
+You are caught by the bandits as they don't recognize you
 
+option A:
+Submit to be brought to the bandit's leader
+-Brought to the lord
 
-All above scenes filter to talk in Lord's office (same scene, some flavor dialogue)
+Option B:
+Fight your way out
+combat begins
+
+If option B picked:
+
+If caught:
+option A:
+Submit to be brought to the bandit's leader (not available if any bandits killed)
+-Brought to the lord
+
+Option B:
+Fight your way out
+combat begins
+
+If not caught:
+If at least 1 bandit survives
+-Obtain lord's location from survivor (or survivors)
+
+If all bandits dead
+-Explore the camp for clues
+Mission objective: Find the lord's location (letter)
+
+All above scenes filter to talk in Lord's office
 
 - If you are alone, the lord openly tells you about Cindral's cultish practices and questionable culture.
 - If you are with the Cindral town guards, the lord is more cryptic in telling you about the cult, but still tries to help you.
 
 Dialogue options include questioning the lord.
 
-Elias, being skeptical and untrusting of strangers in nature, decides that the lord doesn't have enough evidence of Cindral's flaws to convince him. He returns to the village, unable to do much about the bandits seeing as they are backed by the lord.
 
-Once back in Cindral, Elias spends a few more days deciding what to do about his dilemma. He notices that the customs and culture of the village do match what the lord tried to warn him about (everyone is very young, all people blindly believe the same religion, strange rituals) He is uneasy. A few days later, Lorean asks Elias to attend his 'ascension rite' which Elias assumes is some sort of coming of age ceremony. Curious about Cindral's religious practices, and loyal to his new friend, he agrees to go.
 
 He realizes that everything the lord said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice. Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the lord's village, now wanted by Cindral's people.
 
