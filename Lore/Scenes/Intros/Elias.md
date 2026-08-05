@@ -14,16 +14,15 @@ flowchart TD
     Rest -->|Stealth| Scenario2[Scenario 2: Elias alone]
     Rest -->|Trap| Scenario3[Scenario 3: Bandits alerted]
 
-    Scenario1 -->|Whistle / assault| Combat1([Combat 1])
+    Scenario1 -->|Whistle / assault| CombatStart([Combat Start])
     Scenario1 -->|Success / submit| LordOffice([Lord's Office])
-    Combat1 --> LordOffice
+    CombatStart --> LordOffice
 
     Scenario2 -->|Success / submit| LordOffice
-    Scenario2 -->|Fight| Combat1
+    Scenario2 -->|Fight| CombatStart
 
-    Scenario3 -->|Fight| Combat3([Combat 3])
+    Scenario3 -->|Fight| CombatStart
     Scenario3 -->|Submit / not caught| LordOffice
-    Combat3 --> LordOffice
 
     LordOffice --> Resolution[Resolution]
 ```
@@ -140,10 +139,10 @@ flowchart TD
 
     S1A --> S1A_Obj[Gather intel]
     S1A_Obj -->|Success| S1A_Success[Castle location found]
-    S1A_Obj -->|Caught, whistle| Combat1([Combat 1])
+    S1A_Obj -->|Caught, whistle| CombatStart([Combat Start])
     S1A_Obj -->|Caught, submit| S1A_Submit[Brought to lord]
 
-    S1B --> Combat1
+    S1B --> CombatStart
 ```
 
 **Scen1.** You were able to find the bandit camp. You have the group of soldiers with you. An attack will be easier, but an infiltration will be harder with more people.
@@ -159,15 +158,15 @@ flowchart TD
 
 ---
 
-## Combat Resolution — Scenario 1
+## Combat Start Resolution
 
 ```mermaid
 flowchart TD
-    Combat1([Combat 1]) -->|Survivor| C1_Survivor[Info from survivor]
-    Combat1 -->|All dead| C1_Explore[Letter in camp]
+    CombatStart([Combat Start]) -->|Survivor| C1_Survivor[Info from survivor]
+    CombatStart -->|All dead| C1_Explore[Letter in camp]
 ```
 
-**Combat1:**
+**CombatStart:**
 - **If at least 1 bandit survives:** Obtain the lord's location from the survivor(s).
 - **If all bandits dead:** Explore the camp for clues. Mission objective: find the lord's location (letter).
 
@@ -183,7 +182,7 @@ flowchart TD
     S2A --> S2A_Obj[Gather intel]
     S2A_Obj -->|Success| S2A_Success[Castle location found]
     S2A_Obj -->|Caught, submit| S2A_Submit[Brought to lord]
-    S2A_Obj -->|Caught, fight| Combat1([Combat 1])
+    S2A_Obj -->|Caught, fight| CombatStart([Combat Start])
 ```
 
 **Scen2.** You were able to find the bandit camp. You are already at the camp, alone. Infiltration will be much easier alone, but a frontal assault will be much harder.
@@ -193,7 +192,7 @@ flowchart TD
 **S2A_Obj.** Mission objective: obtain information on the bandits and their leader (stealth).
 - **Success:** Location of the lord's castle found.
 - **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord.
-- **Caught, fight:** Fight your way out. Resolves using the same survivor/explore logic as Combat1 (Scenario 1).
+- **Caught, fight:** Fight your way out. Resolves using the [[#Combat Start Resolution|same Combat Start logic]].
 
 ---
 
@@ -206,10 +205,10 @@ flowchart TD
 
     S3A --> S3A_Caught[Not recognized]
     S3A_Caught -->|Submit| S3A_Submit[Brought to lord]
-    S3A_Caught -->|Fight| Combat3([Combat 3])
+    S3A_Caught -->|Fight| CombatStart([Combat Start])
 
     S3B -->|Caught, submit| S3B_Submit[Brought to lord*]
-    S3B -->|Caught, fight| Combat3
+    S3B -->|Caught, fight| CombatStart
     S3B -->|Not caught, survivor| S3B_Survivor[Info from survivor]
     S3B -->|Not caught, all dead| S3B_Explore[Letter in camp]
 ```
@@ -220,24 +219,13 @@ flowchart TD
 
 **S3A_Caught.** You are caught by the bandits, as they don't recognize you.
 - **Submit:** Submit to be brought to the bandit's leader, then to the lord.
-- **Fight:** Fight your way out — combat begins.
+- **Fight:** Fight your way out. Resolves using the [[#Combat Start Resolution|same Combat Start logic]].
 
 **S3B — Full Stealth:**
 - **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord. *Not available if any bandits were killed.*
-- **Caught, fight:** Fight your way out — combat begins.
+- **Caught, fight:** Fight your way out. Resolves using the [[#Combat Start Resolution|same Combat Start logic]].
 - **Not caught, survivor:** At least 1 bandit survives — obtain the lord's location from the survivor(s).
 - **Not caught, all dead:** Explore the camp for clues. Mission objective: find the lord's location (letter).
-
----
-
-## Combat Resolution — Scenario 3
-
-```mermaid
-flowchart TD
-    Combat3([Combat 3]) --> Combat1([Combat 1])
-```
-
-**Combat3.** Resolves using the same survivor/explore logic as Combat1 (Scenario 1).
 
 ---
 
@@ -270,11 +258,3 @@ flowchart TD
 **Reveal.** He realizes that everything the lord said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice.
 
 **Escape.** Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the lord's village, now wanted by Cindral's people.
-
-## Notes on this approach
-
-- The Full Scene Map at the top treats each section as a single node — a high-level view of how sections connect, not a redraw of their internal branching. Internal detail (options, outcomes, individual nodes) exists in exactly one place: that section's own diagram below. Nothing is duplicated, so there's nothing to keep in sync.
-- Every small diagram below is for reading section by section — easy to render, easy to scan, no giant unreadable graph while you're focused on one beat.
-- Node and edge labels are kept to a few words each, so diagrams stay compact even as branching deepens — full meaning lives in the prose below, not in the label.
-- Prose sits immediately below its diagram, in the same file — no second document, no jumping around.
-- Cost: the map can't show fine-grained cross-section links (e.g. "the Whistle response from Scenario 1 and the Fight response from Scenario 2 both lead to Combat1, but Submit does not") without either cluttering the section-level edges or reintroducing some internal node names — edge labels there are a compressed summary of several underlying paths, not a literal 1:1 rendering of every route.
