@@ -15,16 +15,16 @@ flowchart TD
     Rest -->|Trap| Scenario3[Scenario 3: Bandits alerted]
 
     Scenario1 -->|Whistle / assault| CombatStart([Combat Start])
-    Scenario1 -->|Success / submit| LordOffice([Lord's Office])
-    CombatStart --> LordOffice
+    Scenario1 -->|Success / submit| ChancellorOffice([Chancellor's Office])
+    CombatStart --> ChancellorOffice
 
-    Scenario2 -->|Success / submit| LordOffice
+    Scenario2 -->|Success / submit| ChancellorOffice
     Scenario2 -->|Fight| CombatStart
 
     Scenario3 -->|Fight| CombatStart
-    Scenario3 -->|Submit / not caught| LordOffice
+    Scenario3 -->|Submit / not caught| ChancellorOffice
 
-    LordOffice --> Resolution[Resolution]
+    ChancellorOffice --> Resolution[Resolution]
 ```
 
 ---
@@ -140,7 +140,7 @@ flowchart TD
     S1A --> S1A_Obj[Gather intel]
     S1A_Obj -->|Success| S1A_Success[Castle location found]
     S1A_Obj -->|Caught, whistle| CombatStart([Combat Start])
-    S1A_Obj -->|Caught, submit| S1A_Submit[Brought to lord]
+    S1A_Obj -->|Caught, submit| S1A_Submit[Brought to Chancellor]
 
     S1B --> CombatStart
 ```
@@ -150,9 +150,9 @@ flowchart TD
 - **Option B:** Fight aggressively — find the leader by force.
 
 **S1A_Obj.** Mission objective: obtain information on the bandits and their leader (stealth).
-- **Success:** Location of the lord's castle found.
+- **Success:** Location of the Chancellor's castle found.
 - **Caught, whistle:** Whistle to call soldiers — combat begins.
-- **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord.
+- **Caught, submit:** Submit to be brought to the bandit's leader, then to the Chancellor.
 
 **S1B.** Combat begins.
 
@@ -167,8 +167,8 @@ flowchart TD
 ```
 
 **CombatStart:**
-- **If at least 1 bandit survives:** Obtain the lord's location from the survivor(s).
-- **If all bandits dead:** Explore the camp for clues. Mission objective: find the lord's location (letter).
+- **If at least 1 bandit survives:** Obtain the Chancellor's location from the survivor(s).
+- **If all bandits dead:** Explore the camp for clues. Mission objective: find the Chancellor's location (letter).
 
 ---
 
@@ -181,7 +181,7 @@ flowchart TD
 
     S2A --> S2A_Obj[Gather intel]
     S2A_Obj -->|Success| S2A_Success[Castle location found]
-    S2A_Obj -->|Caught, submit| S2A_Submit[Brought to lord]
+    S2A_Obj -->|Caught, submit| S2A_Submit[Brought to Chancellor]
     S2A_Obj -->|Caught, fight| CombatStart([Combat Start])
 ```
 
@@ -190,8 +190,8 @@ flowchart TD
 - **Option B:** Return to Cindral to alert the guard.
 
 **S2A_Obj.** Mission objective: obtain information on the bandits and their leader (stealth).
-- **Success:** Location of the lord's castle found.
-- **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord.
+- **Success:** Location of the Chancellor's castle found.
+- **Caught, submit:** Submit to be brought to the bandit's leader, then to the Chancellor.
 - **Caught, fight:** Fight your way out. Resolves using the [[#Combat Start Resolution|same Combat Start logic]].
 
 ---
@@ -204,10 +204,10 @@ flowchart TD
     Scen3 -->|B| S3B[Full stealth]
 
     S3A --> S3A_Caught[Not recognized]
-    S3A_Caught -->|Submit| S3A_Submit[Brought to lord]
+    S3A_Caught -->|Submit| S3A_Submit[Brought to Chancellor]
     S3A_Caught -->|Fight| CombatStart([Combat Start])
 
-    S3B -->|Caught, submit| S3B_Submit[Brought to lord*]
+    S3B -->|Caught, submit| S3B_Submit[Brought to Chancellor*]
     S3B -->|Caught, fight| CombatStart
     S3B -->|Not caught, survivor| S3B_Survivor[Info from survivor]
     S3B -->|Not caught, all dead| S3B_Explore[Letter in camp]
@@ -218,46 +218,48 @@ flowchart TD
 - **Option B:** Full stealth mission — evade detection entirely.
 
 **S3A_Caught.** You are caught by the bandits, as they don't recognize you.
-- **Submit:** Submit to be brought to the bandit's leader, then to the lord.
+- **Submit:** Submit to be brought to the bandit's leader, then to the Chancellor.
 - **Fight:** Fight your way out. Resolves using the [[#Combat Start Resolution|same Combat Start logic]].
 
 **S3B — Full Stealth:**
-- **Caught, submit:** Submit to be brought to the bandit's leader, then to the lord. *Not available if any bandits were killed.*
+- **Caught, submit:** Submit to be brought to the bandit's leader, then to the Chancellor. *Not available if any bandits were killed.*
 - **Caught, fight:** Fight your way out. Resolves using the [[#Combat Start Resolution|same Combat Start logic]].
-- **Not caught, survivor:** At least 1 bandit survives — obtain the lord's location from the survivor(s).
-- **Not caught, all dead:** Explore the camp for clues. Mission objective: find the lord's location (letter).
+- **Not caught, survivor:** At least 1 bandit survives — obtain the Chancellor's location from the survivor(s).
+- **Not caught, all dead:** Explore the camp for clues. Mission objective: find the Chancellor's location (letter).
 
 ---
 
-## Lord's Office
+## Chancellor's Office
 
 ```mermaid
 flowchart TD
-    LordOffice([Lord's Office]) -->|Alone| LordOpen[Reveals cult]
-    LordOffice -->|Guards| LordCryptic[Cryptic, still helps]
-    LordOpen --> LordQuestion([Question Lord])
-    LordCryptic --> LordQuestion
+    ChancellorOffice([Chancellor's Office]) -->|Alone| ChancellorOpen[Reveals cult]
+    ChancellorOffice -->|Guards| ChancellorCryptic[Cryptic, still helps]
+    ChancellorOpen --> ChancellorQuestion([Question Chancellor])
+    ChancellorCryptic --> ChancellorQuestion
 ```
 
-**In the Lord's Office.** 
+**In the Chancellor's Office.** 
 
-**Got here by being arrested*
-Elias is brought before lord Voss to be interrogated. The lord wishes to know why Elias was sneaking around his men's camp, who sent him there, who he is, etc.
+### **Got here by being arrested**
+Elias is brought before Chancellor Voss to be interrogated. The Chancellor wishes to know why Elias was sneaking around his men's camp, who sent him there, who he is, etc.
 
 Option 1:
 Tell the truth
 
-Lord Voss chides Elias for being foolish. Tells him that he is being deceived by Cindral, and that they aren't to be trusted.
+Chancellor Voss chides Elias for being foolish. Tells him that he is being deceived by Cindral, and that they aren't to be trusted.
 
 Dialogue options:
--Ask Voss why he's doing this?
+-Ask Voss why he hired the mercenaries to harass the city.
 -Ask Voss to elaborate on why Cindral isn't to be trusted?
--
+-Who are you?
+
+After talking for awhile the Chancellor asks how much Elias is being paid to find out about the bandits. He then offers to pay double for Elias to find out about the cult's yearly ritual, and disrupt the proceedings if at all possible.
 
 Option 2:
 Lie (deception)
 
-Elias tells lord Voss:
+Elias tells Chancellor Voss:
 
 A: He is a wandering mercenary and heard about the bandit gig. He was looking for work
 
@@ -268,17 +270,80 @@ C: Just a traveler lost in the woods
 Option 3:
 Refuse to tell him anything
 
+*gets thrown in dungeon*
 
+You now have to escape from prison! congratulations
+
+### *Got here without alerting or fighting the bandits. Obtained information stealthily*
+
+Chancellor Voss is taken by surprise. He is impressed at Elias's skill to not be caught by the bandits, and his success sneaking past his guards into the castle.
+
+Dialogue options:
+-Ask Voss why he hired the mercenaries to harass the city.
+-Ask Voss to elaborate on why Cindral isn't to be trusted?
+-Who are you?
+
+After talking for awhile the Chancellor asks how much Elias is being paid to find out about the bandits. He then offers to pay double for Elias to find out about the cult's yearly ritual, and disrupt the proceedings if at all possible.
+
+### *Elias makes his way back to Cindral*
 ---
+Upon arriving in Cindral, Elias is greeted by Lorean at the front gates. The overworked clerk appears anxious. He asks Elias what happened with the bandits
+
+dialogue options:
+- (deception) Tell Lorean that the bandits have been dealt with and won't bother Cindral anymore.
+- Placeholder
+- Placeholder
+
+Lorean is relieved with this outcome, and says he'll let the mayor know. He then seems confused for a moment, and there is an awkward pause. He then Tells Elias that he will have to inform the mayor's new clerk, as his term of service has ended.
+
+Elias is confused what he means by 'end of service' and asks what he means. Is this an elected position? 
+
+Lorean gloomily tells him that he was chosen for the ascension ritual, so he can't continue his work. He states that if he hadn't been chosen, he was a prime candidate for another term.
+
+Knowing that the cult's rituals are of interest to Voss, Elias is intrigued by the ritual. He asks Lorean for more information on the proceedings.
+
+Lorean tells him that it is a yearly event, and that it is a great honor to be chosen.
+
+He still seems down, so Elias asks him what the issue is if the ritual is considered an honor.
+
+Lorean tells him that he is just sad that he won't be able to continue with his work.
+
+This doesn't add up to Elias, who asks why he can't just continue his work after the ritual.
+
+Lorean says the spirit is freed during the ritual. 
+
+This explanation just makes Elias more confused, to which he cautiously asks what that means. 
+
+Lorean replies that he will no longer be able to associate with worldly matters after the ritual.
+
+Elias makes the realization that Lorean is implying the ritual is a sacrifice. This appalling conclusion springs him to action. He takes Lorean by the shoulders and shakes him a bit and asks if he knows that means he will die.
+
+Lorean replies that his body will meet an end, but it isn't the true end. His spirit will have a better chance to live on.
+
+Elias asks Lorean if he thinks that is right, if he will miss the chance to live the rest of his life. To do the things he finds fulfilling. To finish his work. To make meet new people, and maybe even see new lands *hint hint wink wonk*
+
+Lorean says he's never even left the village, let alone seen anywhere far away
+
+Elias asks him if he would like to, if so he could leave with him now before the ritual.
+
+Lorean refuses, but he hesitates. Elias can tell he is a bit conflicted. Lorean invites Elias to the ritual, saying that he doesn't want them to fight anymore. Elias says he will think about it, restating that he thinks Lorean should leave town before tomorrow. He tells Lorean he will be at the Inn if he changes his mind. They part ways, but Lorean is slightly questioning his preconceived notions about the ritual. Is there more to his life? Should there be more?
+
+*The next day*
+
+Elias wakes at dawn, slightly saddened to see that Lorean didn't take him up on his offer. He gets ready to leave town, packing up all of his things. Then, before he sets out, he realizes that this just isn't sitting well with him. Besides that, Voss will want more information about the cult. There is no better way to learn about the cult than attending the ritual. and, if he just so happens to kidnap a ferret while he's there, so be it.
+
+### *The ritual* 
+
+
 
 ## Resolution
 
 ```mermaid
 flowchart TD
-    LordQuestion([Question Lord]) --> Reveal[Ritual is sacrifice]
+    ChancellorQuestion([Question Chancellor]) --> Reveal[Ritual is sacrifice]
     Reveal --> Escape[Escape, now wanted]
 ```
 
-**Reveal.** He realizes that everything the lord said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice.
+**Reveal.** He realizes that everything the Chancellor said was true when the so-called 'ascension ritual' turns out to be a cultish sacrifice.
 
-**Escape.** Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the lord's village, now wanted by Cindral's people.
+**Escape.** Chaos breaks out as he tries to save his newly made friend from this unfortunate fate. They narrowly escape back to the Chancellor's village, now wanted by Cindral's people.

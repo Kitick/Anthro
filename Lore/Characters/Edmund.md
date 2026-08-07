@@ -2,13 +2,13 @@
 Species: European Badger
 Gender: Male
 Age: 56
-Role: Lord
+Role: Chancellor
 ---
 # Edmund Voss
 
 ## Overview
 
-Edmund Voss is the lord of [[Vesper]], a stern and disciplined nobleman whose public image is that of a practical ruler with little patience for sentiment. Five years ago, his daughter Seraphine "Sera" Voss, who traveled to [[Cindral]] for a research expedition, vanished without a trace. He never learns the full truth of what happened to her, but the disappearance left him restless, suspicious, and increasingly driven by a private obsession.
+Edmund Voss is the Chancellor of [[Vesper]], a stern and disciplined nobleman whose public image is that of a practical ruler with little patience for sentiment. Five years ago, his daughter Seraphine "Sera" Voss, who traveled to [[Cindral]] for a research expedition, vanished without a trace. He never learns the full truth of what happened to her, but the disappearance left him restless, suspicious, and increasingly driven by a private obsession.
 
 Although he does not know the details, Sera had befriended a young woman from [[Cindral]]. That friend was selected for the city's infamous "ascension ritual," a cruel sacrifice disguised as sacred tradition. When Sera tried to uncover the truth behind the ritual and planned to bring proof to the Vatican, she was silenced by the church's agents. Her father only knows that she disappeared during the trip and that the trail to [[Cindral]] went cold.
 
@@ -25,7 +25,7 @@ Sera, whom he loved fiercely, had always been curious, intelligent, and unusuall
 
 Five years later, Edmund has not found the proof he needs to expose the truth publicly, so he remains in a precarious state of half-knowledge. He is determined to dismantle the cult's power through pressure and intimidation, even if that means operating outside the law. 
 
-## Daughter of Lord Voss
+## Daughter
 
 ### Seraphine "Sera" Voss
 
