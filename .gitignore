@@ -2,7 +2,10 @@
 .vscode/
 .godot/
 .claude/
+
+# Obsidian
 .obsidian/
+.trash/
 
 # .NET
 bin/
