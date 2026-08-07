@@ -8,7 +8,7 @@ Rank: Sergeant
 Specialist: Pilot, Avionics, Flight Control Systems
 Element: Electrical
 ---
-# Kitick "Kit"
+# Kitick "Kit" Fox
 
 ## Overview
 

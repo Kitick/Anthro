@@ -1,7 +1,7 @@
 # Maelis
 
 ## Overview
-Maelis is a medium-sized city among the twelve cities of Senara, renowned as a center of intellect, strategy, and tactical excellence. Founded and guided by the tenets of Saint Maelis of Deception and Trickery, the city cultivates a philosophy that prizes cunning, foresight, and the power of the mind. Where some cities value raw strength or honor, Maelis rewards those who can outthink their opponents and prove their worth through strategic brilliance.
+Maelis is a medium-sized city among the twelve cities of Senara, renowned as a center of intellect, strategy, and tactical excellence. Founded and guided by the tenets of Saint Maelis of Deception and Trickery, the city cultivates a philosophy that prizes cunning, foresight, and the power of the mind. Where some cities value raw strength or honor, Maelis rewards those who can out-think their opponents and prove their worth through strategic brilliance.
 
 ## Patron Deity: Soverin of Chaos
 
