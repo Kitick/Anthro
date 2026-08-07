@@ -53,7 +53,7 @@ The military operates as a department and reports to the Senate, but holds a cat
 
 ### The Military Committee
 
-The Military Committee sits between the Senate and military command. Its sole purpose is to ensure that military force is directed by national decisions, not individual political ones. No Senator has direct access to military Commanders outside of formal Committee proceedings.
+The Military Committee sits between the Senate and military command. Its sole purpose is to ensure that military force is directed by national decisions, not individual political ones. No Senator has direct access to military Flag Officers outside of formal Committee proceedings.
 
 
 ## Cities

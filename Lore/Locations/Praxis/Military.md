@@ -4,7 +4,7 @@
 
 The military is organized as a hierarchy. There are two main flavors of personnel deployment, those designated for combat, and those who are not. The main distinction is those who are combat deployed spend most of their base time doing skills based and scenario training, and usually are deployed to missions. Whereas non-combat are typically working on the base handling day-to-day operations. Some non-combat positions are specialists. Each type of deployment uses the same rank structure. Not all ranks are used in every position, but at least one per category is used. They are outlined as follows:
 
-## Non-Rank
+## Civilian
 
 - **Recruit (Rct.)**
 
@@ -14,7 +14,7 @@ The military is organized as a hierarchy. There are two main flavors of personne
 
   These are typically given to civilians who might be working with military personnel who have specialized knowledge or skills not directly related to the military. However, military rank personnel can also receive specialist status and serve special roles on missions. They can have higher authority with some conditions within their area of expertise.
 
-## Soldier
+## Enlisted
 
 - **Private (Pvt.)**
 
@@ -34,18 +34,22 @@ The military is organized as a hierarchy. There are two main flavors of personne
 
   These act as big picture mission leaders, and are the first in command. Each mission, department and sometimes projects have a captain assigned to it. They are responsible for carrying out the mission or maintaining their department by delegation of responsibilities to their lieutenants.
 
-- **Major (Maj.)**
+## Command
 
-  These act as category or department heads, and make all the high level decisions for their discipline. This includes outlining missions and assigning captains to them, as well as assigning them to lead departments within their scope. A major is the highest internally promotable rank.
+Both ranks in this tier are branch-themed: each division calls them by its own title rather than a shared name. Collectively they are referred to by generic terms used when speaking of the tier itself rather than a specific rank or branch title, avoiding "Commander," a term which in reality denotes a rank subordinate to Captain and would misleadingly suggest the opposite of what it means here.
 
-## Commander
+- **Senior Officer** — Major (Army), Commodore (Navy), Commander (Air Force)
 
-There are only a few sitting commanders, and they function as the highest level of military command. They each get a special title for their domain, like General of the Army, Admiral of the Navy, Marshall of the Air Force. They organize everything to do with the military and interface with the Senate exclusively through the Military Committee.
+  These act as category or department heads, and make all the high level decisions for their discipline. This includes outlining missions and assigning captains to them, as well as assigning them to lead departments within their scope. A Senior Officer is the highest internally promotable rank, though still considered a working officer rather than supreme command.
+
+- **Flag Officer** — General (Army), Admiral (Navy), Marshal (Air Force)
+
+  There are only a few sitting Flag Officers, and they function as the highest level of military command. They organize everything to do with the military and interface with the Senate exclusively through the Military Committee.
 
 ## The Military Committee
 
 The Military Committee is the structured interface between military command and the Senate. Committee members are not Senators and are not military officers. They are a separate body whose only function is to manage this boundary.
 
-The Committee promotes and confirms Commanders, audits the alignment between Senate directives and military actions, and ensures that the military operates in service of national decisions rather than the interests of individual political actors. No Commander communicates directly with a Senator outside of formal Committee proceedings.
+The Committee promotes and confirms Flag Officers, audits the alignment between Senate directives and military actions, and ensures that the military operates in service of national decisions rather than the interests of individual political actors. No Flag Officer communicates directly with a Senator outside of formal Committee proceedings.
 
 This structure exists because the military is the only institution in the nation capable of projecting force at a national scale. Keeping political access to that force formal, documented, and mediated is the single purpose of the Committee.
