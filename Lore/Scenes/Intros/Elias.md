@@ -334,7 +334,14 @@ Elias wakes at dawn, slightly saddened to see that Lorean didn't take him up on 
 
 ### *The ritual* 
 
+Elias arrives outside the church. To his surprise, the atmosphere is much more festive than he expected. Lorean is up on a raised pedestal, receiving blessings from the church hierarchy. The mayor and high priest give a speech. The speech talks about the importance of the ascension ritual to honor Vesrynn and her daughter Cindral's teachings of truth and perception of the self (the soul being the purest representation of the self) The crowd cheers, and seems enthusiastic. 
 
+Lorean is then whisked into the church for the ceremony proper, and Elias has to find a way to sneak into the church. He doesn't have much time. He manages to slip into a side door, wherein he tries to locate Lorean before it's too late.
+
+*rescue scene*
+Elias fights several church officials (fuk da church) until he finds Lorean's room. He has been drugged in prep for the end of the ritual, and thinks he is hallucinating when he sees Elias enter the room. *confused mutter gibberish* Elias puts him over his shoulder and exits the church (possible confrontation?) leads to escape scene. 
+
+Elias leaves the town, and decides to travel to Vesper to report to Chancellor Voss.
 
 ## Resolution
 
