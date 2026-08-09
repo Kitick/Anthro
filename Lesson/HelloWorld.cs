@@ -1,42 +1,39 @@
-double x = 5.5;
-double y = 2.2;
-Console.WriteLine($"vector 1 = {x},{y}");
+Vector3 vectorA = new Vector3(7, 3, -7);
 
-double a = 5;
-double b = 4;
+Vector3 vectorB = new Vector3(8, 5, 4);
 
-Console.WriteLine($"vector 2 = {a},{b}");
+Vector3 vectorC = new Vector3(4, 2, 6.5);
 
-double idiot = x + a;
-double fuk = y + b;
+Vector3 vectorD = new Vector3(8, -2, 9);
+//This is a function (vectorsum)
+Vector3 VectorSum(Vector3 anythingvectory, Vector3 anythingvectory2) {
+	return new Vector3(anythingvectory.X + anythingvectory2.X, anythingvectory.Y + anythingvectory2.Y, anythingvectory.Z + anythingvectory2.Z);
+}
 
-Console.WriteLine($"fucking idiot= {idiot},{fuk}");
+//typewhateverIwant
+//summing vectors with Vector3 struct
+Vector3 vectorSum1 = VectorSum(vectorA, vectorB);
+Vector3 vectorSum2 = VectorSum(vectorC, vectorD);
+Vector3 vectorSum3 = VectorSum(vectorSum1, vectorSum2);
+//bullshit I wrote earlier
+Console.WriteLine("this shit sucks because they took away my ; but classes might get it back");
+Console.WriteLine("note:{are always indented} ");
 
-double T = 7;
+Console.WriteLine(vectorSum3);
+//define Vector3
+struct Vector3 {
+	public double X;
+	public double Y;
+	public double Z;
+//This is the constructor Vector3
+	public Vector3(double x, double y, double z) {
+		X = x;
+		Y = y;
+		Z = z;
+	}
+//override to print
+    public override string ToString () {
 
-Console.WriteLine(T);
-Console.WriteLine("T");
-
-(double, double) fucking_idiot= (idiot,fuk);
-
-Console.WriteLine(fucking_idiot);
-
-double Jeff = (idiot);
-
-Console.WriteLine(Jeff);
-
-(double x, double y) vector1 = (5.5, 2.2);
-
-(double x, double y) vector2 = (5, 4);
-
-Console.WriteLine($"fucking idiot = {vector1},{vector2}");
-
-(double x, double y) vector3 = (vector1.x+vector2.x,vector1.y+vector2.y);
-
-Console.WriteLine(vector3);
-
-double dotproductshit = vector1.x * vector2.x + vector1.y * vector2.y;
-
-Console.WriteLine($"dotproductforKevin is the most glorious number that I will continue to talk about until the end of all time {dotproductshit}");
-
-Console.WriteLine($"Lesson 1 is done motherfuckers!!!(p.s. take that coding things)");
+        return $"{X}, {Y}, {Z}";
+    }
+}
